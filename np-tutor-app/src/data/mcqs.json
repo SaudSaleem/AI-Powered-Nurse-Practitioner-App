@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "domain": "Health Assessment and Diagnostic Reasoning",
+    "question": "A 70-year-old patient complains of sudden weakness on one side of the body and difficulty speaking. Which condition is most likely?",
+    "options": [
+      { "key": "A", "value": "Transient ischemic attack" },
+      { "key": "B", "value": "Stroke (Cerebrovascular accident)" },
+      { "key": "C", "value": "Migraine headache" },
+      { "key": "D", "value": "Seizure" }
+    ],
+    "correctAnswer": { "key": "B", "value": "Stroke (Cerebrovascular accident)" }
+  },
+  {
+    "id": 2,
+    "domain": "Health Assessment and Diagnostic Reasoning",
+    "question": "A 55-year-old man receives a chest X-ray in the clinic with normal findings, and the nurse practitioner diagnoses him with a latent tuberculosis infection. He feels well today and is experiencing no symptoms. Which of the following is the most appropriate next step in the plan of care?",
+    "options": [
+      { "key": "A", "value": "Educate the patient that they are contagious" },
+      { "key": "B", "value": "Educate the patient to follow up if any symptoms develop" },
+      { "key": "C", "value": "Order sputum culture for acid-fast bacilli (AFB)" },
+      { "key": "D", "value": "Start the patient on antibiotic therapy" }
+    ],
+    "correctAnswer": { "key": "D", "value": "Start the patient on antibiotic therapy" }
+  },
+  {
+    "id": 3,
+    "domain": "Therapeutics",
+    "question": "A 45-year-old female presents with hot flashes and irregular periods for the past 6 months. She is interested in hormone replacement therapy. Which of the following is a contraindication to estrogen therapy?",
+    "options": [
+      { "key": "A", "value": "Osteoporosis" },
+      { "key": "B", "value": "History of breast cancer" },
+      { "key": "C", "value": "Vaginal dryness" },
+      { "key": "D", "value": "Type 2 diabetes" }
+    ],
+    "correctAnswer": { "key": "B", "value": "History of breast cancer" }
+  },
+  {
+    "id": 4,
+    "domain": "Professional Role and Responsibility",
+    "question": "A nurse practitioner is seeing a 16-year-old patient who requests contraception. The patient asks that her parents not be informed. In Canada, what is the most appropriate action?",
+    "options": [
+      { "key": "A", "value": "Inform the parents as the patient is a minor" },
+      { "key": "B", "value": "Assess the patient's capacity to consent and provide care if capable" },
+      { "key": "C", "value": "Refuse to provide contraception without parental consent" },
+      { "key": "D", "value": "Refer the patient to another provider" }
+    ],
+    "correctAnswer": { "key": "B", "value": "Assess the patient's capacity to consent and provide care if capable" }
+  },
+  {
+    "id": 5,
+    "domain": "Health Promotion and Prevention of Illness and Injury",
+    "question": "According to Canadian guidelines, at what age should average-risk adults begin screening for colorectal cancer?",
+    "options": [
+      { "key": "A", "value": "40 years" },
+      { "key": "B", "value": "45 years" },
+      { "key": "C", "value": "50 years" },
+      { "key": "D", "value": "55 years" }
+    ],
+    "correctAnswer": { "key": "C", "value": "50 years" }
+  },
+  {
+    "id": 6,
+    "domain": "Content Automation Workflows",
+    "question": "What is the primary purpose of Automation 1: AI Content Drafting Workflow?",
+    "options": [
+      { "key": "A", "value": "To schedule content across multiple platforms" },
+      { "key": "B", "value": "To turn raw inputs into solid first drafts of content" },
+      { "key": "C", "value": "To track daily summaries and progress" },
+      { "key": "D", "value": "To generate branded image templates" }
+    ],
+    "correctAnswer": { "key": "B", "value": "To turn raw inputs into solid first drafts of content" }
+  },
+  {
+    "id": 7,
+    "domain": "Content Automation Workflows",
+    "question": "Which automation platform is recommended for the AI Content Drafting Workflow?",
+    "options": [
+      { "key": "A", "value": "Buffer or Later" },
+      { "key": "B", "value": "Make.com or n8n" },
+      { "key": "C", "value": "Canva API" },
+      { "key": "D", "value": "Google Drive" }
+    ],
+    "correctAnswer": { "key": "B", "value": "Make.com or n8n" }
+  },
+  {
+    "id": 8,
+    "domain": "Content Automation Workflows",
+    "question": "What are the two brand options that the automation must branch based on?",
+    "options": [
+      { "key": "A", "value": "TikTok and Instagram" },
+      { "key": "B", "value": "LinkedIn and Email" },
+      { "key": "C", "value": "Late Diagnosis Club and Interaction Engineering™" },
+      { "key": "D", "value": "Notion and Google Drive" }
+    ],
+    "correctAnswer": { "key": "C", "value": "Late Diagnosis Club and Interaction Engineering™" }
+  },
+  {
+    "id": 9,
+    "domain": "Content Automation Workflows",
+    "question": "What is the purpose of Automation 2: Repurpose + Schedule Workflow?",
+    "options": [
+      { "key": "A", "value": "To create first drafts from raw inputs" },
+      { "key": "B", "value": "To take final content and reformat it for multiple platforms" },
+      { "key": "C", "value": "To provide daily summaries and tracking" },
+      { "key": "D", "value": "To extract TikTok transcripts" }
+    ],
+    "correctAnswer": { "key": "B", "value": "To take final content and reformat it for multiple platforms" }
+  },
+  {
+    "id": 10,
+    "domain": "Content Automation Workflows",
+    "question": "Which social media scheduler is recommended for Automation 2?",
+    "options": [
+      { "key": "A", "value": "Make.com or n8n" },
+      { "key": "B", "value": "Buffer or Later" },
+      { "key": "C", "value": "Claude" },
+      { "key": "D", "value": "Notion" }
+    ],
+    "correctAnswer": { "key": "B", "value": "Buffer or Later" }
+  },
+  {
+    "id": 11,
+    "domain": "Content Automation Workflows",
+    "question": "What is the purpose of Automation 3: Notion HQ Agent?",
+    "options": [
+      { "key": "A", "value": "To create content drafts" },
+      { "key": "B", "value": "To schedule content across platforms" },
+      { "key": "C", "value": "To run daily summaries and track progress" },
+      { "key": "D", "value": "To generate branded images" }
+    ],
+    "correctAnswer": { "key": "C", "value": "To run daily summaries and track progress" }
+  },
+  {
+    "id": 12,
+    "domain": "Content Automation Workflows",
+    "question": "What type of input can trigger Automation 1?",
+    "options": [
+      { "key": "A", "value": "Only voice notes" },
+      { "key": "B", "value": "Only TikTok links" },
+      { "key": "C", "value": "Voice notes, text blurts, or TikTok links" },
+      { "key": "D", "value": "Only Notion database updates" }
+    ],
+    "correctAnswer": { "key": "C", "value": "Voice notes, text blurts, or TikTok links" }
+  },
+  {
+    "id": 13,
+    "domain": "Content Automation Workflows",
+    "question": "Where does the draft content get stored in Automation 1?",
+    "options": [
+      { "key": "A", "value": "Only in Google Drive" },
+      { "key": "B", "value": "Only in Notion" },
+      { "key": "C", "value": "In Notion with backup in Google Drive" },
+      { "key": "D", "value": "Only in the automation platform" }
+    ],
+    "correctAnswer": { "key": "C", "value": "In Notion with backup in Google Drive" }
+  },
+  {
+    "id": 14,
+    "domain": "Content Automation Workflows",
+    "question": "What happens when Mariam updates a Notion item to 'Final Draft Approved' in Automation 2?",
+    "options": [
+      { "key": "A", "value": "The automation stops completely" },
+      { "key": "B", "value": "The automation triggers the repurposing workflow" },
+      { "key": "C", "value": "The content gets deleted" },
+      { "key": "D", "value": "The content gets archived" }
+    ],
+    "correctAnswer": { "key": "B", "value": "The automation triggers the repurposing workflow" }
+  },
+  {
+    "id": 15,
+    "domain": "Content Automation Workflows",
+    "question": "What is the purpose of the 'Pause before Scheduling' toggle in Automation 2?",
+    "options": [
+      { "key": "A", "value": "To stop the automation permanently" },
+      { "key": "B", "value": "To save content to Notion for final review before scheduling" },
+      { "key": "C", "value": "To skip content creation entirely" },
+      { "key": "D", "value": "To change the brand settings" }
+    ],
+    "correctAnswer": { "key": "B", "value": "To save content to Notion for final review before scheduling" }
+  }
+] 
