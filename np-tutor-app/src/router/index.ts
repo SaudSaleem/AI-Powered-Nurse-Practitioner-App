@@ -18,6 +18,12 @@ const router = createRouter({
       name: 'home',
       component: () => import('@/views/HomeView.vue'),
       meta: { requiresAuth: true }
+    },
+    {
+      path: '/exams',
+      name: 'exams',
+      component: () => import('@/views/ExamsView.vue'),
+      meta: { requiresAuth: true }
     }
   ]
 })

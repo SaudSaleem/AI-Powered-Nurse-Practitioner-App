@@ -11,6 +11,13 @@
         <div class="flex align-items-center gap-3">
           <span class="text-600">{{ user?.email }}</span>
           <Button 
+            label="View Exams" 
+            icon="pi pi-file-text" 
+            severity="secondary" 
+            text
+            @click="goToExams"
+          />
+          <Button 
             label="Logout" 
             icon="pi pi-sign-out" 
             severity="secondary" 
@@ -85,6 +92,10 @@ const previousQuestion = () => {
 const handleAnswered = (data: { isCorrect: boolean; selectedOption: string }) => {
   // You can add logic here to track user performance
   console.log('Question answered:', data)
+}
+
+const goToExams = () => {
+  router.push('/exams')
 }
 </script>
 

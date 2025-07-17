@@ -4,6 +4,7 @@ import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import PrimeVue from 'primevue/config'
 import Aura from '@primeuix/themes/aura';
+import ToastService from 'primevue/toastservice'
 
 // PrimeVue Components
 import Button from 'primevue/button'
@@ -18,6 +19,11 @@ import Avatar from 'primevue/avatar'
 import Textarea from 'primevue/textarea'
 import ProgressBar from 'primevue/progressbar'
 import Tooltip from 'primevue/tooltip'
+import Toast from 'primevue/toast'
+import Dropdown from 'primevue/dropdown'
+import Tag from 'primevue/tag'
+import Badge from 'primevue/badge'
+import Divider from 'primevue/divider'
 
 // PrimeVue CSS
 // import 'primevue/resources/themes/lara-light-blue/theme.css'
@@ -37,6 +43,7 @@ app.use(PrimeVue, {
     preset: Aura,
   }
 })
+app.use(ToastService)
 
 // Register PrimeVue components globally
 app.component('Button', Button)
@@ -50,6 +57,11 @@ app.component('ProgressSpinner', ProgressSpinner)
 app.component('Avatar', Avatar)
 app.component('Textarea', Textarea)
 app.component('ProgressBar', ProgressBar)
+app.component('Toast', Toast)
+app.component('Dropdown', Dropdown)
+app.component('Tag', Tag)
+app.component('Badge', Badge)
+app.component('Divider', Divider)
 
 // Register PrimeVue directives
 app.directive('tooltip', Tooltip)

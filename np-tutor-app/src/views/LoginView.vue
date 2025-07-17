@@ -18,6 +18,7 @@
               v-model="email" 
               type="email" 
               placeholder="Enter your email"
+              class="w-full"
               :class="{ 'p-invalid': emailError }"
               @input="emailError = ''"
             />
@@ -51,7 +52,7 @@ import { useAppStore } from '@/stores/app'
 const router = useRouter()
 const appStore = useAppStore()
 
-const email = ref('')
+const email = ref('sunny@gmail.com')
 const emailError = ref('')
 const isLoading = ref(false)
 
@@ -72,8 +73,8 @@ const handleLogin = async () => {
   
   setTimeout(() => {
     appStore.login(email.value)
-    router.push('/home')
-  }, 1000)
+    router.push('/exams')
+  }, 100)
 }
 </script>
 

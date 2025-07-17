@@ -1,0 +1,3458 @@
+[
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 1,
+        "type": "independent",
+        "question": "A 55-year-old patient presents to the primary care clinic complaining of persistent fatigue and weight gain over the past six months. The nurse practitioner is conducting an initial assessment and must integrate the patient's biopsychosocial history, including social determinants such as employment stress and family dynamics. Considering the epidemiology of endocrine disorders in middle-aged adults, what is the most appropriate next step in assessing potential hypothyroidism while applying principles of resource stewardship?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order a comprehensive metabolic panel immediately"
+            },
+            {
+                "option": "B",
+                "description": "Perform a focused thyroid physical exam and order TSH level"
+            },
+            {
+                "option": "C",
+                "description": "Refer to endocrinology without initial labs"
+            },
+            {
+                "option": "D",
+                "description": "Conduct a full mental health screening first"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Endocrine, Primary Care",
+        "practice_statement": "I.A.4.a",
+        "reference": "Diabetes Canada 2023, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 2,
+        "type": "independent",
+        "question": "In evaluating a 70-year-old patient with recent falls, the nurse practitioner must synthesize information from the patient's medical history, current medications, and environmental factors. Given the higher incidence of osteoporosis in older adults, particularly those with limited mobility, what critical inquiry approach should be used to determine if a comprehensive geriatric assessment is needed versus a focused one?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Rely solely on patient self-report"
+            },
+            {
+                "option": "B",
+                "description": "Integrate fall risk tools like Timed Up and Go test"
+            },
+            {
+                "option": "C",
+                "description": "Order bone density scan preemptively"
+            },
+            {
+                "option": "D",
+                "description": "Defer assessment to physiotherapy"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.A.3.a",
+        "reference": "BC Clinical Practice Guidelines, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 3,
+        "type": "independent",
+        "question": "A nurse practitioner is assessing a 40-year-old Indigenous patient with symptoms of shortness of breath and cough. Incorporating cultural sensitivity and awareness of intergenerational trauma, the NP must analyze social determinants like access to care in rural settings. To inform diagnostic decisions for possible asthma, what evidence-based technique should be prioritized in the respiratory system review?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Immediate referral to pulmonology"
+            },
+            {
+                "option": "B",
+                "description": "Conduct spirometry testing in clinic"
+            },
+            {
+                "option": "C",
+                "description": "Order chest X-ray without physical exam"
+            },
+            {
+                "option": "D",
+                "description": "Assess only via telehealth consultation"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Respiratory, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "GINA 2024, CTS COPD Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 4,
+        "type": "independent",
+        "question": "When assessing a 25-year-old patient for anxiety disorder, the nurse practitioner must use critical inquiry to synthesize behavioral and psychological measures, considering developmental stage and gender expression. In a Canadian primary care context, what approach best evaluates the impact of social media on the patient's mental health while ensuring cultural humility?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use standardized tools like GAD-7 questionnaire"
+            },
+            {
+                "option": "B",
+                "description": "Prescribe anxiolytics based on symptoms alone"
+            },
+            {
+                "option": "C",
+                "description": "Refer to psychiatry without initial screening"
+            },
+            {
+                "option": "D",
+                "description": "Ignore social factors in assessment"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Mental Health, Primary Care",
+        "practice_statement": "I.A.4.d",
+        "reference": "UpToDate, BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 5,
+        "type": "independent",
+        "question": "A nurse practitioner in a community clinic is evaluating a 10-year-old child for potential attention deficit hyperactivity disorder. Integrating family history and school performance data, the NP must consider epidemiological trends in pediatric neurodevelopmental disorders. What valid and reliable tool should be employed to conduct a comprehensive assessment sensitive to the child's cultural background?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Defer to parental opinion only"
+            },
+            {
+                "option": "B",
+                "description": "Administer Vanderbilt ADHD Diagnostic Rating Scale"
+            },
+            {
+                "option": "C",
+                "description": "Order neuroimaging studies first"
+            },
+            {
+                "option": "D",
+                "description": "Prescribe stimulants preemptively"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Child, Nervous System, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Pediatric Obesity CPG, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 6,
+        "type": "independent",
+        "question": "In assessing an 80-year-old patient for urinary incontinence, the nurse practitioner must synthesize pharmacological history, including diuretics, with physical findings. Given the prevalence in advanced age adults, what critical step involves ordering diagnostic investigations while adhering to resource stewardship principles in Canadian guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Perform post-void residual urine measurement"
+            },
+            {
+                "option": "B",
+                "description": "Refer to urology without baseline tests"
+            },
+            {
+                "option": "C",
+                "description": "Ignore medication review"
+            },
+            {
+                "option": "D",
+                "description": "Order CT scan of abdomen immediately"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult of Advanced Age, Genitourinary, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Choosing Wisely Canada, RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 7,
+        "type": "independent",
+        "question": "A nurse practitioner is obtaining informed consent from a 35-year-old patient before ordering screening for sexually transmitted infections. Discussing risks, benefits, and confidentiality under Canadian privacy laws, the NP must ensure the patient understands implications for disclosure. What key element must be included to support autonomous decision-making?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Mandate testing without discussion"
+            },
+            {
+                "option": "B",
+                "description": "Explain alternatives like self-testing kits"
+            },
+            {
+                "option": "C",
+                "description": "Withhold information on positive results"
+            },
+            {
+                "option": "D",
+                "description": "Proceed without verbal confirmation"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Reproductive, Primary Care",
+        "practice_statement": "I.A.2.a",
+        "reference": "BC Clinical Practice Guidelines, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 8,
+        "type": "independent",
+        "question": "A nurse practitioner interprets elevated fasting glucose levels in a 50-year-old patient with obesity. Synthesizing clinical findings and lab results per Canadian guidelines, the NP formulates differential diagnoses including prediabetes versus type 2 diabetes. What critical reasoning step determines the most likely diagnosis while considering prognosis?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Confirm with A1C test and patient education on outcomes"
+            },
+            {
+                "option": "B",
+                "description": "Dismiss as lifestyle issue without further tests"
+            },
+            {
+                "option": "C",
+                "description": "Refer to specialist immediately"
+            },
+            {
+                "option": "D",
+                "description": "Prescribe insulin based on glucose alone"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Endocrine, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 9,
+        "type": "independent",
+        "question": "In diagnosing chronic obstructive pulmonary disease in a 65-year-old smoker, the nurse practitioner analyzes spirometry results showing FEV1/FVC ratio below 0.7. Integrating history of dyspnea and cough, what diagnostic reasoning incorporates evidence from guidelines to differentiate from asthma?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Ignore reversibility testing"
+            },
+            {
+                "option": "B",
+                "description": "Perform bronchodilator response test"
+            },
+            {
+                "option": "C",
+                "description": "Diagnose based on symptoms only"
+            },
+            {
+                "option": "D",
+                "description": "Order CT chest as first line"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Respiratory, Primary Care",
+        "practice_statement": "I.B.1.a",
+        "reference": "CTS COPD Guidelines 2023, GINA 2024"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 10,
+        "type": "independent",
+        "question": "A nurse practitioner suspects hypertension in a 45-year-old patient with repeated elevated readings. Formulating differentials like white coat hypertension versus essential, the NP must ascertain patient understanding of long-term risks. What step best integrates clinical reasoning for confirmation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe medication without home monitoring"
+            },
+            {
+                "option": "B",
+                "description": "Recommend ambulatory blood pressure monitoring"
+            },
+            {
+                "option": "C",
+                "description": "Refer to cardiology preemptively"
+            },
+            {
+                "option": "D",
+                "description": "Dismiss as stress-related"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Circulatory, Primary Care",
+        "practice_statement": "I.B.1.c",
+        "reference": "Hypertension Guidelines, RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 11,
+        "type": "independent",
+        "question": "For a 60-year-old patient diagnosed with type 2 diabetes, the nurse practitioner develops a care plan incorporating client preferences and barriers like cost of medications. Prioritizing interventions based on clinical urgency and resources, what pharmacological option aligns with stewardship principles per Canadian guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Initiate insulin therapy immediately"
+            },
+            {
+                "option": "B",
+                "description": "Prescribe metformin as first-line with lifestyle counseling"
+            },
+            {
+                "option": "C",
+                "description": "Refer to dietitian only"
+            },
+            {
+                "option": "D",
+                "description": "Avoid monitoring plan"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Endocrine, Primary Care",
+        "practice_statement": "I.C.1.d",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 12,
+        "type": "independent",
+        "question": "In managing mild asthma in a 30-year-old patient, the nurse practitioner selects non-pharmacological interventions while considering adherence and cost. Analyzing concurrent therapies, what evidence-informed strategy includes deprescribing if possible and monitoring for efficacy?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe high-dose inhaled corticosteroids upfront"
+            },
+            {
+                "option": "B",
+                "description": "Implement asthma action plan with reliever inhaler"
+            },
+            {
+                "option": "C",
+                "description": "Ignore trigger avoidance education"
+            },
+            {
+                "option": "D",
+                "description": "Refer without initial plan"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Respiratory, Primary Care",
+        "practice_statement": "I.C.2.e",
+        "reference": "GINA 2024"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 13,
+        "type": "independent",
+        "question": "A nurse practitioner performs a minor procedure for ingrown toenail in a 50-year-old diabetic patient. Explaining risks like infection and aftercare, the NP must monitor clinical findings post-procedure. What invasive intervention technique ensures evidence-informed practice in this context?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use non-sterile equipment"
+            },
+            {
+                "option": "B",
+                "description": "Apply digital block anesthesia and matrixectomy if needed"
+            },
+            {
+                "option": "C",
+                "description": "Defer to surgeon without attempt"
+            },
+            {
+                "option": "D",
+                "description": "Ignore follow-up evaluation"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Skin, Primary Care",
+        "practice_statement": "I.C.3.b",
+        "reference": "UpToDate, BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 14,
+        "type": "independent",
+        "question": "For a patient with gout flare, the nurse practitioner counsels on colchicine, analyzing polypharmacy risks with NSAIDs. Establishing a monitoring plan for adverse effects like gastrointestinal upset, what principle of pharmacological stewardship is critical in Canadian practice?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe indefinitely without review"
+            },
+            {
+                "option": "B",
+                "description": "Select lowest effective dose and duration"
+            },
+            {
+                "option": "C",
+                "description": "Combine with steroids routinely"
+            },
+            {
+                "option": "D",
+                "description": "Avoid patient education on interactions"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.C.2.f",
+        "reference": "RxFiles, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 15,
+        "type": "independent",
+        "question": "In stabilizing a patient with anaphylaxis from a bee sting, the nurse practitioner performs epinephrine injection. Prioritizing interventions in this emergent situation, what follow-up action includes collaboration with emergency services for continuity?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Discharge without monitoring"
+            },
+            {
+                "option": "B",
+                "description": "Administer auto-injector and transfer to ER"
+            },
+            {
+                "option": "C",
+                "description": "Use oral antihistamines only"
+            },
+            {
+                "option": "D",
+                "description": "Ignore airway assessment"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Immune, Urgent Care",
+        "practice_statement": "I.C.3.d",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 16,
+        "type": "independent",
+        "question": "A nurse practitioner creates a care plan for obesity in a 12-year-old child, addressing barriers like family eating habits. Examining options with the family, what sustainable intervention prioritizes clinical efficacy and adherence per pediatric guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe appetite suppressants"
+            },
+            {
+                "option": "B",
+                "description": "Develop family-based behavioral modification program"
+            },
+            {
+                "option": "C",
+                "description": "Refer to bariatric surgery immediately"
+            },
+            {
+                "option": "D",
+                "description": "Ignore social determinants"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Child, Nutritional, Primary Care",
+        "practice_statement": "I.C.1.b",
+        "reference": "Pediatric Obesity CPG"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 17,
+        "type": "independent",
+        "question": "In counseling a 28-year-old patient with opioid use disorder, the nurse practitioner applies harm-reduction strategies, identifying risks like overdose. Developing a plan considering buprenorphine-naloxone, what evidence-informed prescribing adheres to Canadian legislation on controlled substances?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe without monitoring adherence"
+            },
+            {
+                "option": "B",
+                "description": "Initiate opioid agonist therapy with take-home naloxone"
+            },
+            {
+                "option": "C",
+                "description": "Defer to addiction specialist only"
+            },
+            {
+                "option": "D",
+                "description": "Ignore safe storage education"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Substance Use, Primary Care",
+        "practice_statement": "I.D.3.c",
+        "reference": "BC Clinical Practice Guidelines, RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 18,
+        "type": "independent",
+        "question": "A nurse practitioner provides therapeutic interventions for a patient experiencing intense grief after loss. Recognizing biases and creating safe spaces, what trauma-informed technique facilitates resolution while evaluating the therapeutic relationship's effectiveness?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Dismiss emotions as temporary"
+            },
+            {
+                "option": "B",
+                "description": "Use active listening and empathy mapping"
+            },
+            {
+                "option": "C",
+                "description": "Refer without initial support"
+            },
+            {
+                "option": "D",
+                "description": "Avoid discussing intergenerational impacts"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Mental Health, Primary Care",
+        "practice_statement": "I.D.2.c",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+        "question_number": 19,
+        "type": "independent",
+        "question": "In facilitating discharge for a patient post-myocardial infarction, the nurse practitioner modifies the care plan based on home support needs. Collaborating to access community cardiac rehab, what action ensures continuity under Canadian health privacy laws?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Share records without consent"
+            },
+            {
+                "option": "B",
+                "description": "Document rationale and facilitate information transfer with consent"
+            },
+            {
+                "option": "C",
+                "description": "Defer follow-up to patient initiative"
+            },
+            {
+                "option": "D",
+                "description": "Ignore resource linkage"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Circulatory, Acute Care",
+        "practice_statement": "I.E.1.b",
+        "reference": "Hypertension Guidelines, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+        "question_number": 20,
+        "type": "independent",
+        "question": "A self-employed nurse practitioner conducts a virtual visit for acne management in a 16-year-old. Articulating risks of virtual care and obtaining consent, the NP adapts assessment techniques. What requirement ensures privacy and documentation compliance in Canadian regulations?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use unsecured platforms"
+            },
+            {
+                "option": "B",
+                "description": "Maintain secure records and confirm in-person need if limited"
+            },
+            {
+                "option": "C",
+                "description": "Avoid electronic documentation"
+            },
+            {
+                "option": "D",
+                "description": "Proceed without consent for virtual"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adolescent, Skin, Virtual Care",
+        "practice_statement": "I.E.4.d",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 21,
+        "type": "independent",
+        "question": "A nurse practitioner is assessing a 62-year-old patient presenting with intermittent chest pain and shortness of breath during exertion. Integrating the patient's cardiovascular risk factors, such as smoking history and family predisposition to coronary artery disease, the NP must consider epidemiological data on heart disease in older adults. To inform potential stable angina diagnosis, the assessment should prioritize urgent versus routine evaluation. Applying critical inquiry, what technique best incorporates a focused physical exam and initial diagnostic tools while respecting resource stewardship in a Canadian primary care setting? The NP also needs to evaluate the impact of social determinants like access to transportation for follow-up tests.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order stress test without initial ECG"
+            },
+            {
+                "option": "B",
+                "description": "Perform cardiac auscultation and resting ECG"
+            },
+            {
+                "option": "C",
+                "description": "Refer to emergency department immediately"
+            },
+            {
+                "option": "D",
+                "description": "Defer assessment to annual physical"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Circulatory, Primary Care",
+        "practice_statement": "I.A.1.d",
+        "reference": "Hypertension Guidelines, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 22,
+        "type": "independent",
+        "question": "In evaluating a 14-year-old adolescent for potential scoliosis during a routine school screening, the nurse practitioner synthesizes developmental stage information with physical findings like uneven shoulders. Considering the higher prevalence in females during growth spurts, the NP must use valid tools for assessment. What critical approach determines the need for radiographic confirmation while being sensitive to the teen's body image concerns and cultural background? This includes integrating family history and ensuring informed consent for any imaging. The assessment should align with Canadian pediatric guidelines to avoid unnecessary radiation exposure.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order full spine X-ray preemptively"
+            },
+            {
+                "option": "B",
+                "description": "Use Adams forward bend test and scoliometer"
+            },
+            {
+                "option": "C",
+                "description": "Ignore if no pain reported"
+            },
+            {
+                "option": "D",
+                "description": "Refer to orthopedics without exam"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Musculoskeletal, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Pediatric Obesity CPG, BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 23,
+        "type": "independent",
+        "question": "A 75-year-old patient reports progressive memory loss and confusion, prompting the nurse practitioner to conduct a mental status evaluation. Synthesizing biopsychosocial factors, including isolation post-retirement and possible depression, the NP considers dementia epidemiology in advanced age. What evidence-based tool should be used to perform a comprehensive cognitive assessment while incorporating the patient's cultural and linguistic preferences? This step must evaluate delirium risks from medications. The approach should follow Canadian standards for elder care to differentiate reversible causes.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Administer Mini-Mental State Examination (MMSE)"
+            },
+            {
+                "option": "B",
+                "description": "Rely on family report alone"
+            },
+            {
+                "option": "C",
+                "description": "Order brain MRI first"
+            },
+            {
+                "option": "D",
+                "description": "Defer to neurologist without screening"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult of Advanced Age, Nervous System, Primary Care",
+        "practice_statement": "I.A.4.d",
+        "reference": "UpToDate, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 24,
+        "type": "independent",
+        "question": "When assessing a 5-year-old child for recurrent ear infections, the nurse practitioner integrates vaccination history and exposure to second-hand smoke as social determinants. Given the common occurrence of otitis media in young children, the NP must decide on focused versus comprehensive exam. What critical inquiry synthesizes otoscopic findings with tympanic membrane appearance to guide antibiotic stewardship? This includes considering parental concerns about hearing impact. The assessment aligns with Canadian pediatric guidelines to prevent overuse of diagnostics.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe antibiotics without exam"
+            },
+            {
+                "option": "B",
+                "description": "Conduct otoscopy to visualize membrane inflammation"
+            },
+            {
+                "option": "C",
+                "description": "Order audiometry test immediately"
+            },
+            {
+                "option": "D",
+                "description": "Refer to ENT specialist preemptively"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Child, Ears, Primary Care",
+        "practice_statement": "I.A.3.b",
+        "reference": "BC Clinical Practice Guidelines, RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 25,
+        "type": "independent",
+        "question": "A nurse practitioner evaluates a 48-year-old patient for chronic abdominal pain, incorporating dietary habits and stress as biopsychosocial elements. Considering irritable bowel syndrome prevalence in middle adults, the NP must order appropriate investigations. What approach best applies resource stewardship by selecting targeted tests like stool analysis for parasites? This integrates the patient's work-life balance affecting adherence. The assessment should follow evidence-informed Canadian digestive guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order full GI endoscopy first"
+            },
+            {
+                "option": "B",
+                "description": "Perform Rome IV criteria evaluation and selective labs"
+            },
+            {
+                "option": "C",
+                "description": "Ignore psychosocial factors"
+            },
+            {
+                "option": "D",
+                "description": "Refer to gastroenterology without tests"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Digestive, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "UpToDate, CTS COPD Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 26,
+        "type": "independent",
+        "question": "In assessing a 32-year-old pregnant patient for gestational hypertension, the nurse practitioner synthesizes prenatal history with blood pressure trends. Given risks in young adults, the NP must prioritize life-threatening conditions like preeclampsia. What critical step involves urine protein testing while discussing advanced care planning preferences? This ensures sensitivity to cultural beliefs about pregnancy. The approach adheres to Canadian obstetric guidelines for timely intervention.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Defer monitoring to next visit"
+            },
+            {
+                "option": "B",
+                "description": "Conduct urinalysis for proteinuria and blood pressure check"
+            },
+            {
+                "option": "C",
+                "description": "Prescribe antihypertensives without tests"
+            },
+            {
+                "option": "D",
+                "description": "Ignore patient preferences"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Pregnancy, Primary Care",
+        "practice_statement": "I.A.3.e",
+        "reference": "Hypertension Guidelines, Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 27,
+        "type": "independent",
+        "question": "A nurse practitioner obtains informed consent from a 68-year-old patient prior to colorectal cancer screening. Explaining benefits like early detection and risks such as perforation, the NP discusses alternatives like FIT versus colonoscopy. What element supports the patient's decision-making, considering literacy levels and cultural factors? This includes implications for family health history. The process follows Canadian screening protocols to promote equity.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Mandate colonoscopy without options"
+            },
+            {
+                "option": "B",
+                "description": "Provide written materials on risks and benefits"
+            },
+            {
+                "option": "C",
+                "description": "Proceed without discussion"
+            },
+            {
+                "option": "D",
+                "description": "Withhold cost information"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Digestive, Primary Care",
+        "practice_statement": "I.A.2.a",
+        "reference": "Choosing Wisely Canada, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 28,
+        "type": "independent",
+        "question": "A nurse practitioner interprets positive rapid strep test in a 22-year-old with sore throat and fever. Formulating differentials like viral pharyngitis versus bacterial, the NP ascertains understanding of antibiotic needs. What diagnostic reasoning step integrates Centor criteria to confirm streptococcal infection? This considers prognosis for complications like rheumatic fever. The approach uses Canadian infectious disease guidelines for accuracy.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Apply Centor score and culture if needed"
+            },
+            {
+                "option": "B",
+                "description": "Prescribe antibiotics without criteria"
+            },
+            {
+                "option": "C",
+                "description": "Dismiss as viral based on age"
+            },
+            {
+                "option": "D",
+                "description": "Refer to ENT for confirmation"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Nose and Throat, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "BC Clinical Practice Guidelines, RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 29,
+        "type": "independent",
+        "question": "In diagnosing benign prostatic hyperplasia in a 70-year-old male with urinary symptoms, the nurse practitioner analyzes PSA levels and digital rectal exam findings. Differentiating from prostate cancer, what step determines most likely diagnosis based on clinical urgency? This includes patient education on outcomes like retention risks. The reasoning follows Canadian urology standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Diagnose based on symptoms alone"
+            },
+            {
+                "option": "B",
+                "description": "Interpret IPSS score and uroflowmetry"
+            },
+            {
+                "option": "C",
+                "description": "Order biopsy preemptively"
+            },
+            {
+                "option": "D",
+                "description": "Ignore quality of life impact"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Genitourinary, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 30,
+        "type": "independent",
+        "question": "A nurse practitioner suspects atopic dermatitis in a 8-year-old with itchy rash, interpreting skin biopsy if needed. Formulating differentials like psoriasis, what critical reasoning incorporates Hanifin-Rajka criteria for confirmation? This ascertains family understanding of chronic nature. The diagnosis aligns with Canadian dermatology guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe steroids without criteria"
+            },
+            {
+                "option": "B",
+                "description": "Apply diagnostic criteria and allergy testing"
+            },
+            {
+                "option": "C",
+                "description": "Refer to dermatologist immediately"
+            },
+            {
+                "option": "D",
+                "description": "Dismiss as minor irritation"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Child, Skin, Primary Care",
+        "practice_statement": "I.B.1.a",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 31,
+        "type": "independent",
+        "question": "For a 55-year-old with newly diagnosed osteoporosis, the nurse practitioner creates a care plan addressing fall risks and vitamin D levels. Examining bisphosphonate options with the patient, what intervention prioritizes adherence by considering dental health precautions? This integrates cost and clinical efficacy per guidelines. The plan seeks consultation from physiotherapy for exercise.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe without dental evaluation"
+            },
+            {
+                "option": "B",
+                "description": "Initiate alendronate after oral health check"
+            },
+            {
+                "option": "C",
+                "description": "Defer treatment to specialist"
+            },
+            {
+                "option": "D",
+                "description": "Ignore lifestyle modifications"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.C.1.e",
+        "reference": "RxFiles, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 32,
+        "type": "independent",
+        "question": "In managing gastroesophageal reflux disease in a 40-year-old, the nurse practitioner selects proton pump inhibitors while analyzing lifestyle factors. What monitoring plan addresses potential long-term risks like bone loss, incorporating deprescribing? This considers patient preferences for non-pharmacological options first. The strategy follows Canadian gastroenterology standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe indefinitely without review"
+            },
+            {
+                "option": "B",
+                "description": "Trial PPI for 8 weeks with symptom reassessment"
+            },
+            {
+                "option": "C",
+                "description": "Refer to surgery preemptively"
+            },
+            {
+                "option": "D",
+                "description": "Avoid dietary counseling"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Digestive, Primary Care",
+        "practice_statement": "I.C.2.d",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 33,
+        "type": "independent",
+        "question": "A nurse practitioner performs incision and drainage for a skin abscess in a 25-year-old. Explaining procedure risks like recurrence, what evidence-informed technique includes packing if needed and antibiotic selection? This monitors for systemic infection post-procedure. The intervention adheres to Canadian infectious guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use non-sterile methods"
+            },
+            {
+                "option": "B",
+                "description": "Apply local anesthesia and culture wound"
+            },
+            {
+                "option": "C",
+                "description": "Defer to emergency room"
+            },
+            {
+                "option": "D",
+                "description": "Ignore follow-up"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Skin, Primary Care",
+        "practice_statement": "I.C.3.b",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 34,
+        "type": "independent",
+        "question": "For allergic rhinitis in a 35-year-old, the nurse practitioner counsels on intranasal corticosteroids, analyzing interactions with other allergies. What pharmacological stewardship principle includes lowest dose and patient education on technique? This establishes adherence monitoring. The plan uses Canadian allergy guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe oral antihistamines primarily"
+            },
+            {
+                "option": "B",
+                "description": "Select fluticasone with usage instructions"
+            },
+            {
+                "option": "C",
+                "description": "Combine with decongestants routinely"
+            },
+            {
+                "option": "D",
+                "description": "Avoid non-pharmacological advice"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Nose and Throat, Primary Care",
+        "practice_statement": "I.C.2.g",
+        "reference": "RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 35,
+        "type": "independent",
+        "question": "In stabilizing a child with croup presenting stridor, the nurse practitioner administers dexamethasone. Prioritizing airway management in this urgent scenario, what collaboration involves pediatric consultation for admission? This modifies plan based on response. The action follows Canadian respiratory protocols.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Discharge with home remedies"
+            },
+            {
+                "option": "B",
+                "description": "Give nebulized epinephrine and monitor"
+            },
+            {
+                "option": "C",
+                "description": "Use antibiotics empirically"
+            },
+            {
+                "option": "D",
+                "description": "Ignore viral etiology"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Child, Respiratory, Urgent Care",
+        "practice_statement": "I.C.3.d",
+        "reference": "GINA 2024, CTS COPD Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 36,
+        "type": "independent",
+        "question": "A nurse practitioner develops a plan for menopausal symptoms in a 52-year-old, addressing hot flashes with hormone therapy options. Exploring barriers like breast cancer risk, what sustainable intervention includes non-hormonal alternatives if preferred? This prioritizes client goals per guidelines. The plan seeks gynecologist input if complex.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe HRT without discussion"
+            },
+            {
+                "option": "B",
+                "description": "Offer SSRIs or lifestyle changes first"
+            },
+            {
+                "option": "C",
+                "description": "Refer without initial options"
+            },
+            {
+                "option": "D",
+                "description": "Ignore quality of life"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Reproductive, Primary Care",
+        "practice_statement": "I.C.1.a",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 37,
+        "type": "independent",
+        "question": "In counseling a 45-year-old with nicotine dependence, the nurse practitioner applies harm-reduction by discussing vaping risks. Identifying cessation barriers, what strategy includes varenicline prescribing with safe storage education? This adheres to Canadian tobacco legislation. The approach evaluates therapeutic relationship for referrals.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe without counseling"
+            },
+            {
+                "option": "B",
+                "description": "Combine pharmacotherapy with behavioral support"
+            },
+            {
+                "option": "C",
+                "description": "Defer to smoking cessation clinic"
+            },
+            {
+                "option": "D",
+                "description": "Ignore relapse risks"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Respiratory, Primary Care",
+        "practice_statement": "I.D.3.b",
+        "reference": "CTS COPD Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 38,
+        "type": "independent",
+        "question": "A nurse practitioner provides trauma-informed care to a survivor of domestic violence, recognizing intense fear expressions. Creating safe spaces by addressing biases, what technique facilitates emotional resolution using motivational interviewing? This identifies intergenerational trauma. The intervention follows Canadian violence prevention standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Dismiss concerns as overreaction"
+            },
+            {
+                "option": "B",
+                "description": "Employ safety planning and empathy"
+            },
+            {
+                "option": "C",
+                "description": "Refer without immediate support"
+            },
+            {
+                "option": "D",
+                "description": "Avoid bias reflection"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Mental Health, Primary Care",
+        "practice_statement": "I.D.2.d",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+        "question_number": 39,
+        "type": "independent",
+        "question": "In planning transition for a patient with chronic kidney disease stage 3, the nurse practitioner facilitates nephrology referral and home dialysis education. Modifying plan for transportation barriers, what action ensures continuity by sharing labs securely? This follows Canadian privacy laws. The documentation includes rationale for changes.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Share information without consent"
+            },
+            {
+                "option": "B",
+                "description": "Coordinate multidisciplinary team handoff"
+            },
+            {
+                "option": "C",
+                "description": "Defer community resources"
+            },
+            {
+                "option": "D",
+                "description": "Ignore follow-up needs"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Genitourinary, Primary Care",
+        "practice_statement": "I.E.1.c",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+        "question_number": 40,
+        "type": "independent",
+        "question": "A self-employed nurse practitioner documents a virtual consultation for erectile dysfunction in a 58-year-old. Ensuring billing ethics and privacy via encrypted platforms, what requirement adapts communication for virtual limitations? This determines in-person need for exam. The practice aligns with Canadian telehealth regulations.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use unsecured email for records"
+            },
+            {
+                "option": "B",
+                "description": "Document consent and assess virtual suitability"
+            },
+            {
+                "option": "C",
+                "description": "Avoid electronic prescriptions"
+            },
+            {
+                "option": "D",
+                "description": "Proceed without adaptation"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Reproductive, Virtual Care",
+        "practice_statement": "I.E.4.e",
+        "reference": "Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 41,
+        "type": "independent",
+        "question": "A nurse practitioner is assessing a 29-year-old patient complaining of irregular menstrual cycles and acne, potentially indicating polycystic ovary syndrome. Integrating the patient's reproductive history, body mass index, and ethnic background as social determinants, the NP must consider epidemiological patterns in young adults. To determine if a focused endocrine assessment is sufficient or if comprehensive imaging is needed, what valid technique incorporates hormone level testing while ensuring sensitivity to the patient's gender identity and cultural preferences? This step should align with Canadian women's health guidelines to promote informed consent and avoid over-testing. The assessment also evaluates impacts from stress and diet on hormonal balance.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order pelvic ultrasound immediately without labs"
+            },
+            {
+                "option": "B",
+                "description": "Conduct serum androgen and FSH/LH ratio tests"
+            },
+            {
+                "option": "C",
+                "description": "Refer to gynecology without initial evaluation"
+            },
+            {
+                "option": "D",
+                "description": "Defer based on self-report alone"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Reproductive, Primary Care",
+        "practice_statement": "I.A.4.a",
+        "reference": "Diabetes Canada 2023, UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 42,
+        "type": "independent",
+        "question": "In evaluating a 9-month-old infant for failure to thrive, the nurse practitioner synthesizes growth charts, feeding history, and parental socioeconomic status. Considering developmental milestones and potential malabsorption, the NP must use critical inquiry to prioritize urgent nutritional risks. What reliable tool assesses caloric intake while incorporating cultural feeding practices and ensuring sensitivity to family dynamics? This includes screening for organic causes like celiac disease. The approach follows Canadian pediatric nutrition standards to guide resource use effectively.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Rely on parental estimation without tools"
+            },
+            {
+                "option": "B",
+                "description": "Use 3-day food diary and anthropometric measurements"
+            },
+            {
+                "option": "C",
+                "description": "Order genetic testing first"
+            },
+            {
+                "option": "D",
+                "description": "Refer to dietitian preemptively"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Infant, Nutritional, Primary Care",
+        "practice_statement": "I.A.3.a",
+        "reference": "Pediatric Obesity CPG, BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 43,
+        "type": "independent",
+        "question": "A 42-year-old patient presents with joint pain and fatigue, prompting the nurse practitioner to assess for possible rheumatoid arthritis. Integrating occupational history and family genetics as determinants, the NP considers prevalence in middle adults. What critical approach uses validated scoring like DAS28 while being culturally sensitive to pain expression? This evaluates need for serology tests like RF and anti-CCP. The assessment adheres to Canadian rheumatology guidelines for early detection.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order MRI of joints upfront"
+            },
+            {
+                "option": "B",
+                "description": "Apply disease activity score and inflammatory markers"
+            },
+            {
+                "option": "C",
+                "description": "Dismiss as overuse injury"
+            },
+            {
+                "option": "D",
+                "description": "Defer to specialist without labs"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Middle Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "RxFiles, Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Assessment",
+        "question_number": 44,
+        "type": "independent",
+        "question": "When assessing a 85-year-old for delirium post-hospitalization, the nurse practitioner analyzes medication changes and sensory impairments. Given high incidence in advanced age, the NP must differentiate from dementia using critical inquiry. What evidence-based tool incorporates confusion assessment method (CAM) while considering cultural norms for cognitive expression? This includes integrating advanced care directives. The process follows Canadian geriatric protocols to prioritize reversible causes.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use CAM screening with orientation questions"
+            },
+            {
+                "option": "B",
+                "description": "Rely on family observation only"
+            },
+            {
+                "option": "C",
+                "description": "Order head CT immediately"
+            },
+            {
+                "option": "D",
+                "description": "Ignore medication review"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult of Advanced Age, Nervous System, Primary Care",
+        "practice_statement": "I.A.4.d",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 45,
+        "type": "independent",
+        "question": "A nurse practitioner interprets positive H. pylori breath test in a 50-year-old with dyspepsia. Formulating differentials like peptic ulcer versus functional, the NP ascertains understanding of eradication therapy outcomes. What diagnostic reasoning integrates endoscopy indications per guidelines? This considers prognosis for cancer risk. The approach uses Canadian gastroenterology standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe triple therapy without confirmation"
+            },
+            {
+                "option": "B",
+                "description": "Confirm with alarm symptoms for endoscopy"
+            },
+            {
+                "option": "C",
+                "description": "Dismiss as stress-related"
+            },
+            {
+                "option": "D",
+                "description": "Refer without rationale"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Digestive, Primary Care",
+        "practice_statement": "I.B.1.c",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Diagnosis",
+        "question_number": 46,
+        "type": "independent",
+        "question": "In diagnosing restless leg syndrome in a 60-year-old with sleep disturbances, the nurse practitioner analyzes ferritin levels and neurological exam. Differentiating from neuropathy, what step determines diagnosis using IRLSSG criteria? This includes patient education on lifestyle impacts. The reasoning aligns with Canadian sleep medicine guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Apply diagnostic criteria and iron studies"
+            },
+            {
+                "option": "B",
+                "description": "Prescribe dopaminergics empirically"
+            },
+            {
+                "option": "C",
+                "description": "Order nerve conduction tests first"
+            },
+            {
+                "option": "D",
+                "description": "Ignore symptom severity"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Nervous System, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 47,
+        "type": "independent",
+        "question": "For a 38-year-old with migraine headaches, the nurse practitioner develops a plan incorporating triggers like stress. Examining triptan options with the patient, what intervention prioritizes prophylactic beta-blockers if frequent? This addresses adherence barriers like side effects. The plan seeks neurology consultation if refractory, per Canadian headache society guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe abortives only without prevention"
+            },
+            {
+                "option": "B",
+                "description": "Initiate propranolol for frequent attacks"
+            },
+            {
+                "option": "C",
+                "description": "Refer without trial therapy"
+            },
+            {
+                "option": "D",
+                "description": "Ignore trigger management"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Nervous System, Primary Care",
+        "practice_statement": "I.C.1.c",
+        "reference": "RxFiles"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 48,
+        "type": "independent",
+        "question": "In managing acne vulgaris in a 17-year-old, the nurse practitioner selects topical retinoids while analyzing skincare routines. What monitoring plan addresses comedone reduction and irritation risks, incorporating deprescribing if improved? This considers cost and adherence in adolescents. The strategy follows Canadian dermatology guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe oral isotretinoin upfront"
+            },
+            {
+                "option": "B",
+                "description": "Use adapalene with 3-month follow-up"
+            },
+            {
+                "option": "C",
+                "description": "Combine with antibiotics indefinitely"
+            },
+            {
+                "option": "D",
+                "description": "Avoid patient counseling"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Skin, Primary Care",
+        "practice_statement": "I.C.2.f",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 49,
+        "type": "independent",
+        "question": "A nurse practitioner performs cryotherapy for warts on a 12-year-old's hand. Explaining blistering risks and home care, what technique ensures complete lesion treatment with follow-up? This monitors for recurrence in children. The intervention adheres to Canadian pediatric dermatology protocols.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Apply without anesthesia"
+            },
+            {
+                "option": "B",
+                "description": "Use liquid nitrogen with cotton swab method"
+            },
+            {
+                "option": "C",
+                "description": "Defer to dermatologist"
+            },
+            {
+                "option": "D",
+                "description": "Ignore aftercare instructions"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Child, Skin, Primary Care",
+        "practice_statement": "I.C.3.a",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Management",
+        "question_number": 50,
+        "type": "independent",
+        "question": "For hypothyroidism in a 65-year-old, the nurse practitioner counsels on levothyroxine, analyzing interactions with calcium supplements. What stewardship principle includes titration based on TSH monitoring? This establishes adherence education. The plan uses Canadian endocrine guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Start high dose without labs"
+            },
+            {
+                "option": "B",
+                "description": "Initiate low dose with 6-week TSH check"
+            },
+            {
+                "option": "C",
+                "description": "Combine with liothyronine routinely"
+            },
+            {
+                "option": "D",
+                "description": "Avoid symptom discussion"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Endocrine, Primary Care",
+        "practice_statement": "I.C.2.e",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 51,
+        "type": "independent",
+        "question": "In counseling a 20-year-old college student on contraception options, the nurse practitioner creates a therapeutic relationship using age-appropriate communication. Evaluating effectiveness for referrals if needed, what technique incorporates shared decision-making tools? This addresses biases in sexual health discussions. The approach follows Canadian family planning standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Mandate one method without options"
+            },
+            {
+                "option": "B",
+                "description": "Use contraceptive counseling aids and preferences"
+            },
+            {
+                "option": "C",
+                "description": "Defer to parents' input"
+            },
+            {
+                "option": "D",
+                "description": "Avoid discussing side effects"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Reproductive, Primary Care",
+        "practice_statement": "I.D.1.a",
+        "reference": "BC Clinical Practice Guidelines"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Counselling",
+        "question_number": 52,
+        "type": "independent",
+        "question": "A nurse practitioner provides interventions for a patient with post-traumatic stress from a car accident, recognizing flashbacks. What trauma-informed strategy facilitates safe resolution using cognitive behavioral techniques? This identifies related anxiety. The counseling aligns with Canadian mental health guidelines.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Dismiss as temporary reaction"
+            },
+            {
+                "option": "B",
+                "description": "Employ grounding exercises and exposure therapy"
+            },
+            {
+                "option": "C",
+                "description": "Refer without building rapport"
+            },
+            {
+                "option": "D",
+                "description": "Ignore emotional cues"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Mental Health, Primary Care",
+        "practice_statement": "I.D.2.b",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "domain": "I. Clinician",
+        "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+        "question_number": 53,
+        "type": "independent",
+        "question": "In facilitating palliative care transition for a terminal cancer patient, the nurse practitioner collaborates on symptom management resources. Modifying plan for home hospice needs, what action ensures secure information transfer per privacy laws? This documents advance directives rationale. The process follows Canadian end-of-life standards.",
+        "options": [
+            {
+                "option": "A",
+                "description": "Share details informally"
+            },
+            {
+                "option": "B",
+                "description": "Use encrypted platforms for multidisciplinary communication"
+            },
+            {
+                "option": "C",
+                "description": "Defer documentation"
+            },
+            {
+                "option": "D",
+                "description": "Ignore family involvement"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Oncology, Palliative Care",
+        "practice_statement": "I.E.1.a",
+        "reference": "Choosing Wisely Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "scenario": "Mrs. Elena Rodriguez, a 68-year-old woman with a history of type 2 diabetes for 10 years, presents to her primary care NP clinic complaining of increased fatigue, frequent urination, and blurred vision over the past two weeks. She reports poor adherence to her metformin due to gastrointestinal side effects and has not monitored her blood glucose at home recently. Her last HbA1c was 8.5% three months ago, and she mentions a recent weight gain of 5 kg despite no changes in diet.",
+        "questions": [
+            {
+                "question_number": 54,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "Which of the following is the most appropriate initial assessment step for Mrs. Rodriguez's presenting symptoms?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Order a comprehensive metabolic panel immediately"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Perform a focused history on her medication adherence and symptoms"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Conduct a full physical exam including fundoscopy"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Refer to endocrinology without further evaluation"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.1.a",
+                "clinical_context": "Older Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada 2025"
+            },
+            {
+                "question_number": 55,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "In assessing Mrs. Rodriguez's social determinants of health, which factor should the NP prioritize given her symptoms and history?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Her employment status"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Access to healthy food options and support for self-management"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Recent travel history"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Family history of cancer"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.A.3.a",
+                "clinical_context": "Older Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada 2025"
+            },
+            {
+                "question_number": 56,
+                "domain": "I. Clinician",
+                "subdomain": "Diagnosis",
+                "question": "Based on Mrs. Rodriguez's symptoms and history, which differential diagnosis should the NP consider most likely?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Hyperosmolar hyperglycemic state"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Urinary tract infection"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Poorly controlled diabetes with possible retinopathy"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Thyroid dysfunction"
+                    }
+                ],
+                "correct": {
+                    "option": "C"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.B.1.d",
+                "clinical_context": "Older Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada 2025"
+            },
+            {
+                "question_number": 57,
+                "domain": "I. Clinician",
+                "subdomain": "Management",
+                "question": "What is the most appropriate initial management intervention for Mrs. Rodriguez's glycemic control?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Continue metformin and add insulin therapy"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Switch to a GLP-1 receptor agonist considering her side effects and weight gain"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Prescribe a sulfonylurea as add-on therapy"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Recommend lifestyle changes only without medication adjustment"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.C.2.b",
+                "clinical_context": "Older Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada 2025"
+            },
+            {
+                "question_number": 58,
+                "domain": "I. Clinician",
+                "subdomain": "Counselling",
+                "question": "During counselling, how should the NP address Mrs. Rodriguez's adherence issues to promote better outcomes?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Emphasize the risks of non-adherence without exploring barriers"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Use motivational interviewing to discuss her experiences and set collaborative goals"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Provide written instructions only"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Refer to a pharmacist for medication review immediately"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.D.1.a",
+                "clinical_context": "Older Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada 2025"
+            }
+        ]
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "scenario": "Liam Thompson, a 9-year-old boy with known asthma, presents to the pediatric walk-in clinic with wheezing, shortness of breath, and cough that worsened after playing soccer outdoors. His mother reports he has been using his salbutamol inhaler more frequently over the past week, up to 4 times daily, and he missed school yesterday due to symptoms. Liam's last asthma action plan was reviewed 6 months ago, and he is on low-dose inhaled corticosteroids.",
+        "questions": [
+            {
+                "question_number": 59,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "What is the priority assessment for Liam's current presentation?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Detailed family history of allergies"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Evaluate symptom severity using peak flow measurement and oxygen saturation"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Perform a complete neurological exam"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Assess dietary habits"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.1.c",
+                "clinical_context": "Child, Respiratory, Walk-in Clinic",
+                "reference": "GINA 2025"
+            },
+            {
+                "question_number": 60,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "In conducting Liam's review of systems, which finding would most impact the NP's clinical reasoning?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Recent exposure to triggers like pollen or viral illness"
+                    },
+                    {
+                        "option": "B",
+                        "description": "History of eczema in infancy"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Both A and B"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Current school performance"
+                    }
+                ],
+                "correct": {
+                    "option": "C"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.A.3.b",
+                "clinical_context": "Child, Respiratory, Walk-in Clinic",
+                "reference": "GINA 2025"
+            },
+            {
+                "question_number": "61",
+                "domain": "I. Clinician",
+                "subdomain": "Diagnosis",
+                "question": "Which diagnosis best fits Liam's presentation based on his symptoms and inhaler use?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Mild intermittent asthma"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Acute asthma exacerbation of moderate persistent asthma"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Viral-induced wheeze without asthma"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Allergic rhinitis"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.B.1.b",
+                "clinical_context": "Child, Respiratory, Walk-in Clinic",
+                "reference": "GINA 2025"
+            },
+            {
+                "question_number": 62,
+                "domain": "I. Clinician",
+                "subdomain": "Management",
+                "question": "What is the most appropriate management for Liam's acute symptoms in the clinic?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Administer nebulized salbutamol and reassess"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Increase inhaled corticosteroid dose long-term"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Prescribe oral antibiotics"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Recommend bed rest only"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.C.3.d",
+                "clinical_context": "Child, Respiratory, Walk-in Clinic",
+                "reference": "GINA 2025"
+            },
+            {
+                "question_number": 63,
+                "domain": "I. Clinician",
+                "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+                "question": "For Liam's transition of care, what should the NP prioritize in discharge planning?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Document symptoms and refer to family physician for follow-up within 1 week"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Provide no follow-up as symptoms are acute"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Schedule specialist consultation immediately"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Update asthma action plan but no documentation needed"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.E.1.b",
+                "clinical_context": "Child, Respiratory, Walk-in Clinic",
+                "reference": "GINA 2025"
+            }
+        ]
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "scenario": "Mr. Raj Patel, a 55-year-old man of South Asian descent, visits his community health center for a routine check-up and is found to have a blood pressure of 150/95 mmHg on two readings. He has no symptoms but reports a family history of cardiovascular disease and smokes half a pack of cigarettes daily. His BMI is 28, and he works a sedentary job with high stress levels.",
+        "questions": [
+            {
+                "question_number": 64,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "What additional assessment is essential for Mr. Patel to inform risk stratification?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Lipid profile and fasting glucose"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Detailed psychiatric history"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Orthopedic exam"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Vision screening only"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.4.a",
+                "clinical_context": "Middle Adult, Cardiovascular, Community Health Center",
+                "reference": "Hypertension Canada 2025"
+            },
+            {
+                "question_number": 65,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "Considering Mr. Patel's cultural background, how should the NP adapt the assessment?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Ignore cultural factors to avoid bias"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Incorporate questions on dietary preferences and family support with sensitivity"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Focus solely on genetic testing"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Use standard questionnaires without adaptation"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.A.3.a",
+                "clinical_context": "Middle Adult, Cardiovascular, Community Health Center",
+                "reference": "Hypertension Canada 2025"
+            },
+            {
+                "question_number": 66,
+                "domain": "I. Clinician",
+                "subdomain": "Diagnosis",
+                "question": "What is the most likely diagnosis for Mr. Patel based on his blood pressure readings?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "White coat hypertension"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Stage 1 hypertension"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Secondary hypertension due to renal disease"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Normal blood pressure variation"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.B.1.d",
+                "clinical_context": "Middle Adult, Cardiovascular, Community Health Center",
+                "reference": "Hypertension Canada 2025"
+            },
+            {
+                "question_number": 67,
+                "domain": "I. Clinician",
+                "subdomain": "Counselling",
+                "question": "In counselling Mr. Patel on lifestyle modifications, which approach is most effective?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Provide general advice on diet"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Use culturally tailored strategies for smoking cessation and stress management"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Recommend medication without lifestyle changes"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Defer counselling to a later visit"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.D.2.a",
+                "clinical_context": "Middle Adult, Cardiovascular, Community Health Center",
+                "reference": "Hypertension Canada 2025"
+            },
+            {
+                "question_number": 68,
+                "domain": "I. Clinician",
+                "subdomain": "Management",
+                "question": "If lifestyle changes are insufficient, what first-line pharmacological management should the NP consider for Mr. Patel?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Beta-blocker monotherapy"
+                    },
+                    {
+                        "option": "B",
+                        "description": "ACE inhibitor or ARB, considering his ethnicity"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Diuretic as initial therapy"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Calcium channel blocker only if symptomatic"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.C.2.b",
+                "clinical_context": "Middle Adult, Cardiovascular, Community Health Center",
+                "reference": "Hypertension Canada 2025"
+            }
+        ]
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "scenario": "Sophia Lee, a 12-year-old girl, is brought to the family NP clinic by her parents for concerns about her weight gain over the past year, now with a BMI at the 95th percentile. She reports bullying at school related to her size, low energy, and prefers sedentary activities like video games. Family history includes type 2 diabetes in her grandmother, and her diet consists mainly of fast food due to busy parental schedules.",
+        "questions": [
+            {
+                "question_number": 69,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "What is the key component of Sophia's initial assessment?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Screen for comorbidities like dyslipidemia and insulin resistance"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Assess only physical activity levels"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Focus on psychological history exclusively"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Measure height and weight only"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.4.f",
+                "clinical_context": "Child, Endocrinology, Family Clinic",
+                "reference": "Pediatric Obesity CPG 2025"
+            },
+            {
+                "question_number": 70,
+                "domain": "I. Clinician",
+                "subdomain": "Diagnosis",
+                "question": "Based on Sophia's BMI and history, what is the appropriate diagnosis?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Normal weight variation"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Obesity with potential psychosocial impacts"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Underweight due to bullying"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Growth hormone deficiency"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.B.1.c",
+                "clinical_context": "Child, Endocrinology, Family Clinic",
+                "reference": "Pediatric Obesity CPG 2025"
+            },
+            {
+                "question_number": 71,
+                "domain": "I. Clinician",
+                "subdomain": "Management",
+                "question": "What management strategy should the NP prioritize for Sophia?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Immediate pharmacotherapy with orlistat"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Family-based behavioral interventions focusing on diet and activity"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Surgical referral"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Monitor without intervention"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.C.1.b",
+                "clinical_context": "Child, Endocrinology, Family Clinic",
+                "reference": "Pediatric Obesity CPG 2025"
+            },
+            {
+                "question_number": 72,
+                "domain": "I. Clinician",
+                "subdomain": "Counselling",
+                "question": "How should the NP counsel Sophia and her family on addressing bullying and self-esteem?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Ignore psychosocial aspects"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Use trauma-informed approaches to build resilience and family support"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Recommend school change immediately"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Prescribe antidepressants"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.D.2.d",
+                "clinical_context": "Child, Endocrinology, Family Clinic",
+                "reference": "Pediatric Obesity CPG 2025"
+            },
+            {
+                "question_number": 73,
+                "domain": "I. Clinician",
+                "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+                "question": "For ongoing care, what should the NP include in Sophia's discharge plan?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "No follow-up needed"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Facilitate referral to a multidisciplinary team and document goals"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Document only BMI"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Virtual follow-up without resources"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.E.1.c",
+                "clinical_context": "Child, Endocrinology, Family Clinic",
+                "reference": "Pediatric Obesity CPG 2025"
+            }
+        ]
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "scenario": "Mr. Harold Jenkins, a 72-year-old retired miner with a 40-pack-year smoking history and diagnosed mild-to-moderate COPD five years ago, presents to the rural primary care clinic with worsening shortness of breath, increased sputum production, and cough over the past three days. He reports using his salbutamol inhaler more frequently without relief and has a home oxygen saturation of 88% on room air. His current medications include tiotropium and as-needed salbutamol, and he lives alone with limited family support.",
+        "questions": [
+            {
+                "question_number": 74,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "What is the most critical initial assessment for Mr. Jenkins to determine the severity of his presentation?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Comprehensive dietary history"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Arterial blood gas analysis to evaluate respiratory failure"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Detailed social history only"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Routine blood work without urgency"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.1.c",
+                "clinical_context": "Older Adult, Respiratory, Rural Primary Care",
+                "reference": "CTS COPD Guidelines 2023"
+            },
+            {
+                "question_number": 75,
+                "domain": "I. Clinician",
+                "subdomain": "Assessment",
+                "question": "In synthesizing Mr. Jenkins's history, which factor should the NP integrate to inform potential triggers and management?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "His occupational exposure and current living situation"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Recent travel abroad"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Childhood vaccination records"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Family history of allergies"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.A.3.a",
+                "clinical_context": "Older Adult, Respiratory, Rural Primary Care",
+                "reference": "CTS COPD Guidelines 2023"
+            },
+            {
+                "question_number": 76,
+                "domain": "I. Clinician",
+                "subdomain": "Diagnosis",
+                "question": "Based on Mr. Jenkins's symptoms and oxygen saturation, what is the most likely diagnosis?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Stable COPD without exacerbation"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Acute exacerbation of COPD possibly due to infection"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Congestive heart failure mimic"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Anxiety-related dyspnea"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.B.1.d",
+                "clinical_context": "Older Adult, Respiratory, Rural Primary Care",
+                "reference": "CTS COPD Guidelines 2023"
+            },
+            {
+                "question_number": 77,
+                "domain": "I. Clinician",
+                "subdomain": "Management",
+                "question": "What pharmacological adjustment should the NP prioritize for Mr. Jenkins's acute management?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Continue current inhalers without change"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Add systemic corticosteroids and antibiotics if indicated by guidelines"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Start long-acting beta-agonist monotherapy"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Prescribe opioids for symptom relief"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.C.2.b",
+                "clinical_context": "Older Adult, Respiratory, Rural Primary Care",
+                "reference": "CTS COPD Guidelines 2023"
+            },
+            {
+                "question_number": 78,
+                "domain": "I. Clinician",
+                "subdomain": "Transition of Care, Discharge Planning, and Documentation",
+                "question": "For Mr. Jenkins's transition, how should the NP ensure continuity given his rural setting?",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Discharge without follow-up"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Coordinate home oxygen if needed and virtual follow-up with documentation"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Refer to urban specialist immediately"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Document symptoms but no resources linkage"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.E.1.a",
+                "clinical_context": "Older Adult, Respiratory, Rural Primary Care",
+                "reference": "CTS COPD Guidelines 2023"
+            }
+        ]
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 79,
+        "question": "A nurse practitioner in a rural primary care clinic notices a higher-than-average rate of uncontrolled hypertension among older adult patients, despite adherence to standard pharmacological therapies. To address this gap, the NP decides to review current literature on non-pharmacological interventions. Which action best demonstrates the NP's ability to appraise and apply evidence-informed resources, considering research methodologies such as randomized controlled trials and systematic reviews from sources like Hypertension Canada guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Implement a new diet plan based on anecdotal reports from colleagues without further evaluation."
+            },
+            {
+                "option": "B",
+                "description": "Conduct a literature search using databases like PubMed and Cochrane, critically appraise the quality of studies using tools like the GRADE system, and select interventions supported by high-quality evidence for pilot implementation."
+            },
+            {
+                "option": "C",
+                "description": "Survey patients informally about their preferences and adjust treatments based solely on feedback."
+            },
+            {
+                "option": "D",
+                "description": "Continue current practices while waiting for updated national guidelines to be released."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Cardiology, Primary Care",
+        "practice_statement": "II.1",
+        "reference": "Hypertension Canada Guidelines 2020, Cochrane Database"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 80,
+        "question": "In a multidisciplinary team meeting at a community health center, a nurse practitioner is discussing recent findings from a study on asthma management in adolescents, highlighting how integrating mobile health apps could improve adherence to GINA guidelines. What is the most effective way for the NP to discuss the practical benefits and applications of this research with the team, ensuring alignment with evidence-informed practice?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Present the study's abstract without detailing methodology or limitations."
+            },
+            {
+                "option": "B",
+                "description": "Share personal opinions on the app's usability based on limited trial experience."
+            },
+            {
+                "option": "C",
+                "description": "Outline the study's design, key outcomes like reduced exacerbations, cost-effectiveness, and potential integration into clinic workflows, while inviting team input on barriers."
+            },
+            {
+                "option": "D",
+                "description": "Recommend immediate adoption without considering local resources."
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Respiratory, Community Health",
+        "practice_statement": "II.2",
+        "reference": "GINA 2024 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 81,
+        "question": "A nurse practitioner leading a quality improvement initiative in a family practice setting reviews evidence from Diabetes Canada guidelines suggesting early screening for prediabetes in high-risk populations. To recommend integration of these findings into practice, the NP must evaluate factors such as clinic capacity, patient demographics, and potential outcomes. Which recommendation best integrates these research findings while considering implementation challenges?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Suggest screening all patients annually regardless of risk to ensure comprehensiveness."
+            },
+            {
+                "option": "B",
+                "description": "Propose a targeted screening protocol for at-risk groups, with training for staff and monitoring of uptake and glycemic control improvements over six months."
+            },
+            {
+                "option": "C",
+                "description": "Delay integration until more local studies are available."
+            },
+            {
+                "option": "D",
+                "description": "Rely on existing protocols without changes."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrine, Family Practice",
+        "practice_statement": "II.3",
+        "reference": "Diabetes Canada 2023 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 82,
+        "question": "When implementing a new evidence-informed protocol for COPD management based on CTS guidelines in a long-term care facility, a nurse practitioner identifies ethical concerns related to equitable access for residents with cognitive impairments. How should the NP apply ethical principles like justice and beneficence while analyzing the contextual factors such as staff training and resource allocation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Proceed with the protocol for all residents without modifications, assuming uniform benefits."
+            },
+            {
+                "option": "B",
+                "description": "Exclude residents with impairments to avoid complications, prioritizing efficiency."
+            },
+            {
+                "option": "C",
+                "description": "Adapt the protocol by incorporating tailored education and support, ensuring informed consent processes respect autonomy, and evaluate outcomes to promote fair distribution of benefits."
+            },
+            {
+                "option": "D",
+                "description": "Defer implementation until ethical approval from an external board."
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Respiratory, Long-Term Care",
+        "practice_statement": "II.4",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 83,
+        "question": "A nurse practitioner in a pediatric clinic has appraised recent studies on obesity management from the Pediatric Obesity CPG and plans to disseminate these findings. To effectively share knowledge with clients, teams, and community partners, the NP should develop materials that are accessible and evidence-based. What is the best strategy for dissemination to ensure uptake and positive health outcomes?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Email the full research articles to all stakeholders without summarization."
+            },
+            {
+                "option": "B",
+                "description": "Create plain-language summaries, infographics, and workshops tailored to different audiences, while tracking engagement and feedback for refinement."
+            },
+            {
+                "option": "C",
+                "description": "Present findings only during annual staff meetings."
+            },
+            {
+                "option": "D",
+                "description": "Limit sharing to medical professionals, excluding families."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Pediatric, Nutritional, Primary Care",
+        "practice_statement": "II.5",
+        "reference": "Pediatric Obesity CPG 2022"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 84,
+        "question": "In analyzing electronic health record data from a primary care practice, a nurse practitioner identifies patterns of overprescribing antibiotics for upper respiratory infections, contrary to Choosing Wisely Canada recommendations. To use this data and technology to mitigate harm, the NP must prioritize interventions that reduce risks like antimicrobial resistance. Which critical action should the NP take first?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Ignore the data trends as they may be outliers."
+            },
+            {
+                "option": "B",
+                "description": "Implement decision-support alerts in the EHR system, educate providers on evidence-based prescribing, and monitor subsequent prescription rates for improvement."
+            },
+            {
+                "option": "C",
+                "description": "Increase antibiotic prescriptions to align with patient demands."
+            },
+            {
+                "option": "D",
+                "description": "Switch to a new EHR system without addressing current issues."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Infectious, Primary Care",
+        "practice_statement": "II.6",
+        "reference": "Choosing Wisely Canada Recommendations"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Quality Improvement and Research/Scholar",
+        "subdomain": "",
+        "question_number": 85,
+        "question": "A nurse practitioner evaluating a clinic's approach to managing chronic pain in middle adults reviews qualitative and quantitative research methodologies from sources like RxFiles. To understand and apply these methodologies in identifying practice gaps, the NP synthesizes data on opioid use trends. What critical synthesis would best inform a quality improvement plan?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Focus solely on quantitative data like prescription volumes, ignoring patient experiences."
+            },
+            {
+                "option": "B",
+                "description": "Dismiss methodological differences and apply findings indiscriminately."
+            },
+            {
+                "option": "C",
+                "description": "Integrate qualitative insights on patient barriers with quantitative outcomes on efficacy, appraising study rigor to recommend multimodal therapies that address holistic needs."
+            },
+            {
+                "option": "D",
+                "description": "Rely on outdated studies without appraisal."
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Pain Management, Primary Care",
+        "practice_statement": "II.1",
+        "reference": "RxFiles Chronic Pain Management"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 86,
+        "question": "In a busy urban hospital's emergency department, a nurse practitioner observes recurring delays in patient handovers between shifts, leading to potential safety risks such as missed medication administrations. To engage in leadership that fosters a culture of continuous improvement, safety, and excellence, the NP decides to initiate a process involving data collection on handover times, staff feedback sessions, and implementation of standardized checklists based on best practices from sources like the Canadian Patient Safety Institute. Which action best exemplifies the NP's leadership in this scenario, ensuring alignment with principles of quality enhancement and team involvement?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Implement the checklists unilaterally without consulting the team."
+            },
+            {
+                "option": "B",
+                "description": "Gather baseline data, facilitate interdisciplinary discussions to identify root causes, pilot the intervention, and evaluate outcomes using metrics like error rates to refine the process."
+            },
+            {
+                "option": "C",
+                "description": "Ignore the issue as it is a management responsibility."
+            },
+            {
+                "option": "D",
+                "description": "Complain to superiors without proposing solutions."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Emergency, Hospital",
+        "practice_statement": "III.1",
+        "reference": "Canadian Patient Safety Institute Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 87,
+        "question": "A nurse practitioner in a community health clinic identifies gaps in diabetes care coordination for middle-adult patients, where fragmented services between primary care and specialists result in suboptimal glycemic control. To build partnerships that optimize health-care delivery, the NP collaborates with endocrinologists, dietitians, and community organizations, drawing on Diabetes Canada guidelines to establish shared care protocols and regular case conferences. What critical leadership strategy should the NP prioritize to ensure sustainable partnerships and improved patient outcomes in this context?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Work independently to manage all aspects of care without external input."
+            },
+            {
+                "option": "B",
+                "description": "Develop memoranda of understanding outlining roles, communication channels, and evaluation metrics, while fostering trust through joint training sessions and feedback loops."
+            },
+            {
+                "option": "C",
+                "description": "Limit partnerships to one specialist to simplify coordination."
+            },
+            {
+                "option": "D",
+                "description": "Rely on informal agreements without documentation."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Middle Adult, Endocrine, Community Health",
+        "practice_statement": "III.2",
+        "reference": "Diabetes Canada 2023 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 88,
+        "question": "During a team meeting in a long-term care facility, a conflict arises between nursing staff and respiratory therapists regarding the prioritization of COPD exacerbations in older adults, with disagreements on intervention timelines based on CTS guidelines. As a nurse practitioner leader, applying principles of team dynamics, conflict resolution, and change management, how should the NP facilitate resolution to support effective collaboration and communication, ensuring patient safety and adherence to evidence-informed practices?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Side with one group to expedite the meeting."
+            },
+            {
+                "option": "B",
+                "description": "Acknowledge perspectives, use active listening to clarify issues, mediate a compromise by referencing guidelines, and implement a change plan with follow-up training."
+            },
+            {
+                "option": "C",
+                "description": "Postpone discussion indefinitely."
+            },
+            {
+                "option": "D",
+                "description": "Assign blame to resolve the immediate tension."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Respiratory, Long-Term Care",
+        "practice_statement": "III.3",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 89,
+        "question": "In preparation for potential public health emergencies like pandemics, a nurse practitioner in a rural primary care setting reviews resources from the Public Health Agency of Canada. To demonstrate awareness of tools and contribute to strategies for responding to disasters and unpredictable situations, the NP develops a clinic-specific emergency response plan. Which element is most critical for the NP to include, ensuring integration with community resources and adaptability to scenarios such as supply shortages or surges in respiratory illnesses?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Focus solely on individual patient care without team involvement."
+            },
+            {
+                "option": "B",
+                "description": "Incorporate triage protocols, communication trees, stockpiling essentials, and simulation drills, while linking to regional health authorities for coordinated response."
+            },
+            {
+                "option": "C",
+                "description": "Wait for directives from higher authorities before planning."
+            },
+            {
+                "option": "D",
+                "description": "Limit the plan to non-clinical staff."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "All Ages, Emergency Preparedness, Primary Care",
+        "practice_statement": "III.4",
+        "reference": "Public Health Agency of Canada Resources"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 90,
+        "question": "A nurse practitioner notices inconsistencies in asthma management protocols across shifts in a pediatric clinic, leading to variable adherence to GINA guidelines and potential safety lapses. Engaging in leadership to promote a culture of continuous improvement, the NP organizes a quality circle with staff to analyze processes. What leadership action best advances safety and excellence, involving root cause analysis and sustainable changes tailored to the clinic's context?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Enforce stricter rules without team input."
+            },
+            {
+                "option": "B",
+                "description": "Conduct a SWOT analysis with the team, develop standardized algorithms, provide education, and monitor compliance through audits with feedback mechanisms."
+            },
+            {
+                "option": "C",
+                "description": "Delegate the issue to junior staff."
+            },
+            {
+                "option": "D",
+                "description": "Maintain status quo to avoid disruption."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Pediatric, Respiratory, Clinic",
+        "practice_statement": "III.1",
+        "reference": "GINA 2024 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 91,
+        "question": "To enhance care for obese adolescents in a school-based health program, a nurse practitioner seeks to build partnerships with local gyms, nutritionists, and schools, aligned with Pediatric Obesity CPG recommendations. Critically evaluating partnership options, the NP must consider compatibility, shared goals, and evaluation frameworks. Which strategy best optimizes health-care delivery through these partnerships, ensuring measurable improvements in BMI and lifestyle behaviors?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Partner with the first available organization without assessment."
+            },
+            {
+                "option": "B",
+                "description": "Assess potential partners' expertise and alignment, establish joint objectives with contracts, co-develop programs, and use pre-post evaluations to track outcomes."
+            },
+            {
+                "option": "C",
+                "description": "Avoid partnerships to maintain control."
+            },
+            {
+                "option": "D",
+                "description": "Form partnerships based on cost alone."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Nutritional, School-Based Health",
+        "practice_statement": "III.2",
+        "reference": "Pediatric Obesity CPG"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Leader",
+        "subdomain": "",
+        "question_number": 92,
+        "question": "In a multidisciplinary hypertension clinic, tensions emerge over differing views on lifestyle interventions versus pharmacotherapy, per Hypertension Canada guidelines. As a leader, the nurse practitioner applies conflict resolution by facilitating dialogue and change management through phased implementation. What integrated approach best supports team dynamics, ensuring collaborative communication and evidence-based adjustments to protocols?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Impose a single viewpoint to unify the team quickly."
+            },
+            {
+                "option": "B",
+                "description": "Use structured mediation sessions to explore viewpoints, apply Kotter's change model for buy-in, and revise protocols collaboratively with ongoing evaluation."
+            },
+            {
+                "option": "C",
+                "description": "Escalate the conflict to administration immediately."
+            },
+            {
+                "option": "D",
+                "description": "Ignore the tensions hoping they resolve naturally."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Clinic",
+        "practice_statement": "III.3",
+        "reference": "Hypertension Canada Guidelines 2020"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Educator",
+        "subdomain": "",
+        "question_number": 93,
+        "question": "A nurse practitioner in a family practice clinic identifies a need for better patient understanding of hypertension management, including lifestyle modifications and medication adherence, as per Hypertension Canada guidelines. To develop and provide educational resources that enhance health-care knowledge and influence positive outcomes, the NP creates customized pamphlets, videos, and group sessions tailored to diverse literacy levels and cultural backgrounds. Which approach best ensures the resources are effective, accessible, and aligned with evidence-informed practices for a wide range of clients across the lifespan?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Distribute generic online links without personalization."
+            },
+            {
+                "option": "B",
+                "description": "Design interactive, multilingual materials incorporating visual aids and real-life scenarios, pre-tested with a focus group for clarity and relevance."
+            },
+            {
+                "option": "C",
+                "description": "Provide verbal instructions only during visits."
+            },
+            {
+                "option": "D",
+                "description": "Use complex medical jargon in all resources."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "All Ages, Cardiology, Family Practice",
+        "practice_statement": "IV.1",
+        "reference": "Hypertension Canada Guidelines 2020"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Educator",
+        "subdomain": "",
+        "question_number": 94,
+        "question": "Following the implementation of an educational program on asthma self-management for adolescents based on GINA guidelines in a school health clinic, a nurse practitioner assesses participant feedback, pre- and post-knowledge quizzes, and health outcome metrics like reduced exacerbations. To evaluate learning and delivery methods for improving outcomes, the NP analyzes this data to refine future sessions. What critical evaluation step should the NP prioritize to ensure the program's ongoing effectiveness and adaptation to learner needs?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Disregard negative feedback to maintain program consistency."
+            },
+            {
+                "option": "B",
+                "description": "Compare quiz scores and outcome data against benchmarks, identify gaps in engagement, and adjust methods like incorporating more digital tools based on evidence."
+            },
+            {
+                "option": "C",
+                "description": "Evaluate only attendance rates without deeper analysis."
+            },
+            {
+                "option": "D",
+                "description": "Repeat the same program annually without changes."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Respiratory, School Health",
+        "practice_statement": "IV.2",
+        "reference": "GINA 2024 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 95,
+        "question": "A nurse practitioner providing care to Indigenous patients in a rural clinic reflects on personal experiences and biases that may influence interactions, particularly regarding historical trauma and cultural practices in managing diabetes, as guided by Diabetes Canada guidelines. To demonstrate self-awareness and cultural humility in mitigating risks based on personal bias, the NP engages in ongoing education and seeks feedback from community elders. Which action best exemplifies this approach to ensure equitable and culturally safe care?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Assume all patients share the same cultural views without inquiry."
+            },
+            {
+                "option": "B",
+                "description": "Participate in cultural competency workshops, journal personal reflections on biases, and adapt care plans collaboratively with patients to honor their perspectives."
+            },
+            {
+                "option": "C",
+                "description": "Avoid discussing cultural topics to prevent offense."
+            },
+            {
+                "option": "D",
+                "description": "Apply standard protocols uniformly regardless of feedback."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Endocrine, Rural Clinic",
+        "practice_statement": "V.1",
+        "reference": "Diabetes Canada 2023 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 96,
+        "question": "In a diverse urban primary care setting, a nurse practitioner notices disparities in COPD management outcomes among low-income patients, influenced by social determinants like housing instability, per CTS guidelines. To contribute to a practice environment that is diverse, equitable, inclusive, and culturally safe, the NP advocates for policy changes such as extended clinic hours and interpreter services. What strategy best promotes this environment while addressing systemic barriers?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Maintain current policies to avoid administrative burden."
+            },
+            {
+                "option": "B",
+                "description": "Implement staff training on equity and inclusion, establish patient advisory groups for input, and monitor disparities through data collection to guide improvements."
+            },
+            {
+                "option": "C",
+                "description": "Focus resources only on high-income patients."
+            },
+            {
+                "option": "D",
+                "description": "Ignore disparities as they are external issues."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "V.2",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 97,
+        "question": "A nurse practitioner in a pediatric clinic encounters barriers to obesity prevention programs for children from immigrant families, including language and transportation issues, as outlined in Pediatric Obesity CPG. To promote equitable care and service delivery, the NP collaborates with community organizations to provide translated materials and virtual options. Which critical advocacy step ensures fairness in access and outcomes for these vulnerable populations?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Offer programs only in English to standardize delivery."
+            },
+            {
+                "option": "B",
+                "description": "Assess community needs, partner with local services for subsidies and multilingual support, and evaluate program participation rates to adjust for inclusivity."
+            },
+            {
+                "option": "C",
+                "description": "Limit enrollment to local residents only."
+            },
+            {
+                "option": "D",
+                "description": "Charge fees to cover additional costs."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Pediatric, Nutritional, Clinic",
+        "practice_statement": "V.3",
+        "reference": "Pediatric Obesity CPG"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 98,
+        "question": "For older adults facing challenges accessing hypertension follow-up care due to mobility issues in a community setting, a nurse practitioner identifies gaps in home-based services, referencing Hypertension Canada guidelines. To advocate for client access to resources and system changes, the NP lobbies for mobile clinics and policy reforms. What is the most effective advocacy action to facilitate these changes and improve health equity?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Advise patients to manage independently."
+            },
+            {
+                "option": "B",
+                "description": "Present data on disparities to health authorities, propose pilot programs with cost-benefit analysis, and engage stakeholders for sustainable funding."
+            },
+            {
+                "option": "C",
+                "description": "Wait for patients to complain formally."
+            },
+            {
+                "option": "D",
+                "description": "Refer all to emergency departments."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Cardiology, Community",
+        "practice_statement": "V.4",
+        "reference": "Hypertension Canada Guidelines 2020"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 99,
+        "question": "A nurse practitioner navigating care for a transgender adolescent with asthma in a school setting encounters silos between mental health, respiratory, and gender-affirming services, per GINA guidelines. Acknowledging the interdependence of systems affecting client care, the NP coordinates integrated care plans. Which navigation strategy best addresses these interdependencies to optimize holistic outcomes?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Handle all aspects solo to avoid delays."
+            },
+            {
+                "option": "B",
+                "description": "Map system interconnections, facilitate interprofessional meetings, and advocate for streamlined referrals to ensure comprehensive, timely support."
+            },
+            {
+                "option": "C",
+                "description": "Focus only on respiratory issues."
+            },
+            {
+                "option": "D",
+                "description": "Defer to specialists without coordination."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Respiratory, School Setting",
+        "practice_statement": "V.5",
+        "reference": "GINA 2024 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 100,
+        "question": "When offered free samples of a new diabetes medication by a pharmaceutical representative during a clinic visit, a nurse practitioner recognizes potential conflicts of interest that could influence prescribing practices, as per Diabetes Canada guidelines. To identify and manage such conflicts while always acting in the client's best interest, the NP adheres to ethical standards. What is the appropriate management action to maintain integrity and patient-centered care?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Accept samples and prescribe the medication preferentially."
+            },
+            {
+                "option": "B",
+                "description": "Disclose the interaction, evaluate evidence independently, and choose treatments based on client needs and guidelines, not incentives."
+            },
+            {
+                "option": "C",
+                "description": "Ignore disclosure requirements."
+            },
+            {
+                "option": "D",
+                "description": "Promote the product to colleagues."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrine, Clinic",
+        "practice_statement": "V.6",
+        "reference": "Diabetes Canada 2023 Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 101,
+        "question": "In treating a patient with COPD who is also experiencing homelessness, a nurse practitioner reflects on how socioeconomic biases might affect empathy and resource allocation, drawing from CTS guidelines. Demonstrating self-awareness to mitigate bias risks, the NP seeks supervision and adjusts approaches. Which reflective practice best supports unbiased, compassionate care in this scenario?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Proceed with assumptions about lifestyle choices."
+            },
+            {
+                "option": "B",
+                "description": "Engage in bias-awareness training, use validated tools for self-assessment, and tailor interventions to address social determinants without judgment."
+            },
+            {
+                "option": "C",
+                "description": "Minimize interactions to avoid discomfort."
+            },
+            {
+                "option": "D",
+                "description": "Apply generic advice uniformly."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "V.1",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Advocate",
+        "subdomain": "",
+        "question_number": 102,
+        "question": "To foster an inclusive environment in a pediatric obesity program, a nurse practitioner addresses microaggressions observed among staff towards overweight children from minority groups, aligned with Pediatric Obesity CPG. Contributing to a diverse and equitable practice, the NP initiates discussions and policies. What initiative best enhances cultural safety and inclusion for improved program efficacy?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Overlook incidents to preserve team harmony."
+            },
+            {
+                "option": "B",
+                "description": "Develop anti-bias policies, conduct workshops on inclusive language, and create accountability measures with regular audits of staff interactions."
+            },
+            {
+                "option": "C",
+                "description": "Exclude affected families from feedback."
+            },
+            {
+                "option": "D",
+                "description": "Focus solely on clinical outcomes."
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Pediatric, Nutritional, Program Setting",
+        "practice_statement": "V.2",
+        "reference": "Pediatric Obesity CPG"
+    }
+]
