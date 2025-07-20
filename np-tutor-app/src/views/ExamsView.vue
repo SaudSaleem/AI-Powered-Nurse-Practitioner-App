@@ -2,7 +2,7 @@
   <div class="exams-container">
     <!-- Header -->
     <div class="app-header">
-      <div class="container flex align-items-center justify-content-between">
+      <div class="container flex flex-wrap align-items-center justify-content-between">
         <div class="flex align-items-center gap-3">
           <i class="pi pi-heart-fill text-3xl text-primary"></i>
           <h1 class="text-2xl font-bold text-primary m-0">NP Tutor - Exams</h1>
@@ -52,8 +52,56 @@
             @change="loadExamData"
           />
           <span class="text-600" v-if="examData.length > 0">
-            ({{ examData.length }} questions)
+            ({{ filteredExamData.length }} of {{ examData.length }} questions)
           </span>
+        </div>
+
+        <!-- Filters -->
+        <div v-if="examData.length > 0" class="filters-section">
+          <div class="flex flex-wrap align-items-center gap-3 mb-3">
+            <label class="font-semibold">Filters:</label>
+            
+            <!-- Model Filter -->
+            <div class="flex align-items-center gap-2">
+              <label for="model-filter" class="text-sm">Model:</label>
+              <Dropdown 
+                id="model-filter"
+                v-model="selectedModel" 
+                :options="modelOptions" 
+                optionLabel="label" 
+                optionValue="value"
+                placeholder="All Models"
+                class="w-10rem"
+                showClear
+              />
+            </div>
+
+            <!-- Domain Filter -->
+            <div class="flex align-items-center gap-2">
+              <label for="domain-filter" class="text-sm">Domain:</label>
+              <Dropdown 
+                id="domain-filter"
+                v-model="selectedDomain" 
+                :options="domainOptions" 
+                optionLabel="label" 
+                optionValue="value"
+                placeholder="All Domains"
+                class="w-12rem"
+                showClear
+              />
+            </div>
+
+            <!-- Clear Filters -->
+            <Button 
+              label="Clear Filters" 
+              icon="pi pi-filter-slash" 
+              severity="secondary" 
+              size="small"
+              outlined
+              @click="clearFilters"
+              v-if="selectedModel || selectedDomain"
+            />
+          </div>
         </div>
       </div>
     </div>
@@ -63,15 +111,15 @@
       <div class="container">
         <div class="grid">
           <div 
-            v-for="(mcq, index) in examData" 
-            :key="index"
+            v-for="(mcq, displayIndex) in filteredExamData" 
+            :key="mcq.originalIndex || displayIndex"
             class="col-12 mb-4"
           >
             <Card class="mcq-preview-card">
               <template #header>
                 <div class="flex align-items-center justify-content-between p-3">
                   <div>
-                    <span class="text-sm text-600">Question {{ index + 1 }}</span>
+                    <span class="text-sm text-600">Question {{ displayIndex + 1 }}</span>
                     <h4 class="mt-1 mb-0 text-primary">{{ mcq.domain }} - {{ mcq.subdomain }}</h4>
                     <div class="flex gap-2 mt-2">
                       <Tag :value="mcq.type" severity="info" class="text-xs" />
@@ -87,7 +135,7 @@
                       severity="warning" 
                       size="small" 
                       outlined
-                      @click="editQuestion(mcq, index)"
+                      @click="editQuestion(mcq, mcq.originalIndex || displayIndex)"
                       v-tooltip.top="'Edit Question'"
                     />
                     <Button 
@@ -95,11 +143,11 @@
                       severity="danger" 
                       size="small" 
                       outlined
-                      @click="confirmDeleteQuestion(mcq, index)"
+                      @click="confirmDeleteQuestion(mcq, mcq.originalIndex || displayIndex)"
                       v-tooltip.top="'Delete Question'"
                     />
                     <Avatar 
-                      :label="String(index + 1)" 
+                      :label="String(displayIndex + 1)" 
                       shape="circle" 
                       size="large" 
                       style="background-color: black; color: white"
@@ -194,7 +242,7 @@
           <Textarea 
             id="scenario"
             v-model="editingQuestion.scenario" 
-            rows="3" 
+            rows="7" 
             class="w-full"
             placeholder="Enter case scenario..."
           />
@@ -206,7 +254,7 @@
           <Textarea 
             id="question"
             v-model="editingQuestion.question" 
-            rows="3" 
+            rows="7" 
             class="w-full"
             placeholder="Enter question text..."
           />
@@ -406,6 +454,16 @@
                   <span class="font-semibold">Model:</span>
                   <span class="text-green-600 font-bold">{{ examStats.modelDistribution.Grok || 0 }} Grok</span>
                 </div>
+                <div class="flex align-items-center gap-2">
+                  <i class="pi pi-cog text-green-600"></i>
+                  <span class="font-semibold">Model:</span>
+                  <span class="text-green-600 font-bold">{{ examStats.modelDistribution.Gemini || 0 }} Gemini</span>
+                </div>
+                <div class="flex align-items-center gap-2">
+                  <i class="pi pi-cog text-green-600"></i>
+                  <span class="font-semibold">Model:</span>
+                  <span class="text-green-600 font-bold">{{ examStats.modelDistribution['Claude Opus4'] || 0 }} Claude Opus4</span>
+                </div>
               </div>
             </div>
           </div>
@@ -424,7 +482,7 @@
             >
               <div class="domain-card p-3 border-1 border-200 border-round mb-3">
                 <div class="flex align-items-center justify-content-between mb-2">
-                  <h4 class="text-primary m-0">{{ domainName }}</h4>
+                  <h4 class="text-primary m-0 capitalize">{{ domainName }}</h4>
                   <Tag :value="`${domain.total} questions`" severity="info" />
                 </div>
                 
@@ -442,7 +500,7 @@
                 </div>
 
                 <!-- Subdomain details for Clinician domain -->
-                <div v-if="domainName === 'I. Clinician' && domain.subdomains" class="mt-3">
+                <div v-if="domainName.toLowerCase().includes('clinician') && domain.subdomains" class="mt-3">
                   <Divider />
                   <h5 class="text-600 mb-2">Subdomains:</h5>
                   <div class="grid">
@@ -549,7 +607,8 @@ interface CaseQuestion extends BaseMCQData {
 interface CaseMCQData {
   model: string
   type: "case"
-  scenario: string
+  scenario: string,
+  domain?: string,
   questions: CaseQuestion[]
 }
 
@@ -564,6 +623,7 @@ interface FlattenedMCQ extends BaseMCQData {
   // Normalized fields for easier access
   normalizedCorrectAnswer: string
   revision?: string // Custom field for teacher notes
+  originalIndex?: number // Added for tracking original index
 }
 
 const router = useRouter()
@@ -589,6 +649,59 @@ const answerOptions = ref([
   { label: 'Option D', value: 'D' }
 ])
 
+const modelOptions = ref([
+  { label: 'All Models', value: '' },
+  { label: 'Grok', value: 'Grok' },
+  { label: 'Claude Opus4', value: 'Claude Opus4' },
+  { label: 'Gemini', value: 'Gemini' }
+])
+
+// Function to get the main domain category from any domain variation
+const getDomainCategory = (domain: string): string => {
+  if (!domain) return 'unknown'
+  
+  const lowerDomain = domain.toLowerCase().trim()
+  console.log(lowerDomain)
+  // Check for domain keywords using includes for flexibility
+  if (lowerDomain.includes('clinician')) return 'Clinician'
+  if (lowerDomain.includes('leader')) return 'Leader'
+  if (lowerDomain.includes('quality') || lowerDomain.includes('improvement') || lowerDomain.includes('research') || lowerDomain.includes('scholar')) return 'Quality Improvement and Research/Scholar'
+  if (lowerDomain.includes('educator')) return 'Educator'
+  if (lowerDomain.includes('advocate')) return 'Advocate'
+  
+  // If no match found, return the original domain (cleaned up)
+  return domain.trim()
+}
+
+const domainOptions = computed(() => {
+  const domainCategories = examData.value.map(mcq => getDomainCategory(mcq.domain || ''))
+  const uniqueDomains = [...new Set(domainCategories)]
+  return [
+    { label: 'All Domains', value: '' },
+    ...uniqueDomains.sort().map(domain => ({ label: domain, value: domain }))
+  ]
+})
+
+const selectedModel = ref<string>('')
+const selectedDomain = ref<string>('')
+
+const filteredExamData = computed(() => {
+  let filtered = examData.value.map((mcq, index) => ({
+    ...mcq,
+    originalIndex: index
+  }))
+
+  if (selectedModel.value) {
+    filtered = filtered.filter(mcq => mcq.model === selectedModel.value)
+  }
+
+  if (selectedDomain.value) {
+    filtered = filtered.filter(mcq => getDomainCategory(mcq.domain || '') === selectedDomain.value)
+  }
+
+  return filtered
+})
+
 const flattenExamData = (rawData: MCQData[]): FlattenedMCQ[] => {
   const flattened: FlattenedMCQ[] = []
   
@@ -600,7 +713,7 @@ const flattenExamData = (rawData: MCQData[]): FlattenedMCQ[] => {
   }
   
   rawData.forEach((item, index) => {
-    if (item.type === 'case') {
+    if (item.type.includes('case')) {
       // Handle case-based questions
       const caseData = item as CaseMCQData
       caseData.questions.forEach((question, qIndex) => {
@@ -608,6 +721,7 @@ const flattenExamData = (rawData: MCQData[]): FlattenedMCQ[] => {
           ...question,
           model: caseData.model,
           type: caseData.type,
+          domain: question.domain || (caseData?.domain as string),
           scenario: caseData.scenario,
           isFromCase: true,
           caseIndex: index,
@@ -641,6 +755,9 @@ const loadExamData = async (): Promise<void> => {
   }
 
   loading.value = true
+  // Clear filters when loading new exam
+  clearFilters()
+  
   try {
     const response = await import(`@/data/exams/${selectedExam.value}.json`)
     const rawData: MCQData[] = response.default || response
@@ -660,7 +777,7 @@ const getOptionClass = (option: MCQOption, mcq: FlattenedMCQ) => {
     'surface-50': !isCorrect,
     'surface-100': !isCorrect,
     'surface-card': !isCorrect,
-    'bg-green-50 border-green-200': isCorrect,
+    'correct-option': isCorrect,
     'border-1 border-solid': true
   }
 }
@@ -860,6 +977,11 @@ const downloadExamJSON = (): void => {
   })
 }
 
+const clearFilters = (): void => {
+  selectedModel.value = ''
+  selectedDomain.value = ''
+}
+
 // Load default exam on mount
 onMounted(() => {
   loadExamData()
@@ -881,10 +1003,10 @@ interface ExamStats {
 }
 
 const examStats = computed<ExamStats | null>(() => {
-  if (examData.value.length === 0) return null
+  if (filteredExamData.value.length === 0) return null
 
   const stats: ExamStats = {
-    totalMCQs: examData.value.length,
+    totalMCQs: filteredExamData.value.length,
     modelDistribution: {},
     domainBreakdown: {},
     typeBreakdown: {
@@ -894,20 +1016,29 @@ const examStats = computed<ExamStats | null>(() => {
   }
 
   // Count by model
-  examData.value.forEach(mcq => {
+  filteredExamData.value.forEach(mcq => {
     const model = mcq.model || 'Unknown'
     stats.modelDistribution[model] = (stats.modelDistribution[model] || 0) + 1
   })
 
   // Count by domain and type
-  examData.value.forEach(mcq => {
-    const domain = mcq.domain || 'Unknown'
+  filteredExamData.value.forEach(mcq => {
+    const originalDomain = mcq.domain || 'Unknown'
+    const domainCategory = getDomainCategory(originalDomain)
+    if(mcq.domain?.includes('Quality')){
+        console.log('domainCategory', domainCategory, 'originalDomain', originalDomain)
+        console.log('mcq', mcq)
+    }
+    if (mcq.domain === undefined){
+        console.log('domainCategory NOT', domainCategory, 'originalDomain', originalDomain)
+        console.log('mcq', mcq)
+    }
     const type = mcq.type || 'unknown'
     const subdomain = mcq.subdomain
 
     // Initialize domain if not exists
-    if (!stats.domainBreakdown[domain]) {
-      stats.domainBreakdown[domain] = {
+    if (!stats.domainBreakdown[domainCategory]) {
+      stats.domainBreakdown[domainCategory] = {
         total: 0,
         independent: 0,
         case: 0
@@ -915,24 +1046,24 @@ const examStats = computed<ExamStats | null>(() => {
     }
 
     // Count domain totals
-    stats.domainBreakdown[domain].total++
+    stats.domainBreakdown[domainCategory].total++
 
     // Count by type
-    if (type === 'independent') {
-      stats.domainBreakdown[domain].independent++
+    if (type.toLowerCase() === 'independent') {
+      stats.domainBreakdown[domainCategory].independent++
       stats.typeBreakdown.independent++
-    } else if (type === 'case') {
-      stats.domainBreakdown[domain].case++
+    } else if (type.toLowerCase().includes('case')) {
+      stats.domainBreakdown[domainCategory].case++
       stats.typeBreakdown.case++
     }
 
     // Count subdomains for Clinician domain
-    if (domain === 'I. Clinician' && subdomain) {
-      if (!stats.domainBreakdown[domain].subdomains) {
-        stats.domainBreakdown[domain].subdomains = {}
+    if (domainCategory === 'Clinician' && subdomain) {
+      if (!stats.domainBreakdown[domainCategory].subdomains) {
+        stats.domainBreakdown[domainCategory].subdomains = {}
       }
-      stats.domainBreakdown[domain].subdomains[subdomain] = 
-        (stats.domainBreakdown[domain].subdomains[subdomain] || 0) + 1
+      stats.domainBreakdown[domainCategory].subdomains[subdomain] = 
+        (stats.domainBreakdown[domainCategory].subdomains[subdomain] || 0) + 1
     }
   })
 
@@ -966,6 +1097,29 @@ const examStats = computed<ExamStats | null>(() => {
   border-radius: 12px;
   padding: 1.5rem;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.filters-section {
+  background: rgba(248, 249, 250, 0.8);
+  border-radius: 8px;
+  padding: 1rem;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.filters-section .flex {
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.filters-section label {
+  font-weight: 600;
+  color: #495057;
+  white-space: nowrap;
+}
+
+.filters-section .p-dropdown {
+  min-width: 120px;
 }
 
 .main-content {
@@ -1124,6 +1278,18 @@ const examStats = computed<ExamStats | null>(() => {
   font-size: 0.875rem;
 }
 
+/* Styling for correct options */
+.correct-option {
+  background-color: #dcfce7 !important; /* light green background */
+  border-color: #16a34a !important; /* green border */
+  color: #15803d !important; /* dark green text */
+}
+
+.correct-option .option-letter,
+.correct-option label {
+  color: #15803d !important; /* ensure all text is visible */
+}
+
 @media (max-width: 768px) {
   .app-header h1 {
     font-size: 1.5rem;
@@ -1136,5 +1302,22 @@ const examStats = computed<ExamStats | null>(() => {
   .main-content .container {
     padding: 0 0.5rem;
   }
+
+  .filters-section .flex {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+  }
+
+  .filters-section .flex > div {
+    width: 100%;
+  }
+
+  .filters-section .p-dropdown {
+    min-width: 100px;
+    width: 100%;
+  }
 }
+
+/* Styling for correct options */
 </style> 

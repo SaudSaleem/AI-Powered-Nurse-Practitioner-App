@@ -208,7 +208,8 @@ watch(() => props.mcq.id, () => {
 
 .option-correct {
   border-color: var(--green-500);
-  background: var(--green-50);
+  background: #dcfce7;
+  color: #15803d;
 }
 
 .option-incorrect {
