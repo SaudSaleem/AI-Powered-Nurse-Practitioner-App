@@ -1,0 +1,1980 @@
+[
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 52-year-old female presents to a rural primary care clinic complaining of persistent fatigue and weakness for the past three months. She reports a history of heavy menstrual bleeding and a diet low in red meat. On examination, her conjunctivae appear pale, and her heart rate is 92 bpm. The NP suspects iron deficiency anemia and orders a complete blood count (CBC). Which finding would most strongly support this suspicion?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Hemoglobin 11.0 g/dL"
+            },
+            {
+                "option": "B",
+                "description": "Mean corpuscular volume (MCV) 72 fL"
+            },
+            {
+                "option": "C",
+                "description": "Platelet count 450 x 10⁹/L"
+            },
+            {
+                "option": "D",
+                "description": "White blood cell count 12 x 10⁹/L"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Hematology, Primary Care",
+        "practice_statement": "I.A.3.b",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 68-year-old male with a history of chronic obstructive pulmonary disease (COPD) arrives at the emergency department with increased shortness of breath over the past two days. He reports a productive cough with yellow sputum and a recent upper respiratory infection. His oxygen saturation is 89% on room air, and he appears distressed. The NP must assess the severity of his COPD exacerbation. Which clinical finding is most indicative of a severe exacerbation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Respiratory rate of 18 breaths per minute"
+            },
+            {
+                "option": "B",
+                "description": "Use of accessory muscles and inability to speak in full sentences"
+            },
+            {
+                "option": "C",
+                "description": "Peak expiratory flow rate 80% of predicted"
+            },
+            {
+                "option": "D",
+                "description": "Temperature of 37.8°C"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Respiratory, Emergency",
+        "practice_statement": "I.A.4.b",
+        "reference": "CTS COPD Guidelines"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 35-year-old female presents to a community clinic with complaints of palpitations and anxiety for the past month. She denies chest pain but reports occasional dizziness and a resting heart rate of 110 bpm on self-monitoring. The NP performs an initial assessment and notes a regular tachycardia on auscultation. Which of the following is the most appropriate next step to assess her condition?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order a chest X-ray"
+            },
+            {
+                "option": "B",
+                "description": "Perform a 12-lead electrocardiogram (ECG)"
+            },
+            {
+                "option": "C",
+                "description": "Refer to a cardiologist immediately"
+            },
+            {
+                "option": "D",
+                "description": "Measure blood pressure only"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.A.1.c",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 12-year-old male is brought to the clinic by his parents due to a two-day history of fever, sore throat, and difficulty swallowing. On examination, the NP observes tonsillar exudates, anterior cervical lymphadenopathy, and a temperature of 38.5°C. The parents are concerned about streptococcal pharyngitis. According to the Modified Centor Score, which additional finding would increase the likelihood of this diagnosis?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Presence of a cough"
+            },
+            {
+                "option": "B",
+                "description": "Absence of rhinorrhea"
+            },
+            {
+                "option": "C",
+                "description": "History of recent travel"
+            },
+            {
+                "option": "D",
+                "description": "Mild headache"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Infectious Disease, Primary Care",
+        "practice_statement": "I.A.3.a",
+        "reference": "Canadian Paediatric Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 75-year-old female with a history of osteoarthritis presents to the clinic reporting worsening knee pain over the past six months. She describes stiffness in the morning lasting over an hour and difficulty walking long distances. The NP performs a physical examination and notes crepitus and limited range of motion in the affected knee. Which assessment tool would be most appropriate to evaluate her functional status?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC)"
+            },
+            {
+                "option": "B",
+                "description": "Mini-Mental State Examination (MMSE)"
+            },
+            {
+                "option": "C",
+                "description": "Timed Up and Go (TUG) test"
+            },
+            {
+                "option": "D",
+                "description": "Beck Depression Inventory"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Arthritis Society Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 28-year-old male presents to an urgent care clinic after a minor motor vehicle accident. He reports neck pain and stiffness but no loss of consciousness or neurological symptoms. The NP performs a cervical spine assessment to rule out serious injury. According to the Canadian C-Spine Rule, which finding would indicate a need for imaging?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Age less than 65 years"
+            },
+            {
+                "option": "B",
+                "description": "Ability to rotate neck 45 degrees bilaterally"
+            },
+            {
+                "option": "C",
+                "description": "Midline cervical tenderness"
+            },
+            {
+                "option": "D",
+                "description": "No history of trauma"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Musculoskeletal, Urgent Care",
+        "practice_statement": "I.A.1.c",
+        "reference": "Canadian C-Spine Rule"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 40-year-old female with no significant medical history presents to the clinic with a three-week history of abdominal bloating and early satiety. She denies weight loss or changes in bowel habits but reports mild discomfort in the upper abdomen. The NP considers a broad differential, including gastrointestinal and gynecological causes. Which physical examination finding would most urgently warrant further investigation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Soft, non-tender abdomen"
+            },
+            {
+                "option": "B",
+                "description": "Palpable mass in the pelvic region"
+            },
+            {
+                "option": "C",
+                "description": "Mild epigastric tenderness"
+            },
+            {
+                "option": "D",
+                "description": "Normal bowel sounds"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Gynecology/Gastroenterology, Primary Care",
+        "practice_statement": "I.A.3.a",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 60-year-old male presents to the clinic with a three-month history of progressive dyspnea on exertion and a dry cough. He has a 40-pack-year smoking history and worked in construction for 30 years. On examination, the NP hears fine inspiratory crackles at the lung bases. Chest imaging reveals reticular opacities. Which diagnosis is most consistent with these findings?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Chronic obstructive pulmonary disease (COPD)"
+            },
+            {
+                "option": "B",
+                "description": "Pulmonary edema"
+            },
+            {
+                "option": "C",
+                "description": "Idiopathic pulmonary fibrosis"
+            },
+            {
+                "option": "D",
+                "description": "Pneumonia"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Respiratory, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "Canadian Thoracic Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 45-year-old female presents with a two-week history of right upper quadrant pain that worsens after fatty meals. She reports nausea but no fever or jaundice. An ultrasound reveals gallstones and a thickened gallbladder wall without pericholecystic fluid. Which diagnosis best fits this clinical presentation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Acute pancreatitis"
+            },
+            {
+                "option": "B",
+                "description": "Chronic cholecystitis"
+            },
+            {
+                "option": "C",
+                "description": "Acute cholangitis"
+            },
+            {
+                "option": "D",
+                "description": "Peptic ulcer disease"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Gastroenterology, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "UpToDate"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 30-year-old male presents to the clinic with a five-day history of fever, chills, and a productive cough with rusty sputum. He has no chronic medical conditions but reports recent contact with a sick colleague. On examination, his temperature is 38.9°C, and there are bronchial breath sounds in the right lower lung field. What is the most likely diagnosis?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Viral bronchitis"
+            },
+            {
+                "option": "B",
+                "description": "Community-acquired pneumonia"
+            },
+            {
+                "option": "C",
+                "description": "Tuberculosis"
+            },
+            {
+                "option": "D",
+                "description": "Acute exacerbation of asthma"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Infectious Disease, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "Canadian Guidelines on CAP"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 50-year-old male with newly diagnosed type 2 diabetes has a fasting plasma glucose of 8.5 mmol/L and an HbA1c of 7.8%. He is overweight with a BMI of 29 kg/m² and has no other comorbidities. The NP decides to initiate pharmacological therapy in addition to lifestyle modifications. According to Diabetes Canada guidelines, which medication is the most appropriate first-line treatment?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Metformin"
+            },
+            {
+                "option": "B",
+                "description": "Insulin glargine"
+            },
+            {
+                "option": "C",
+                "description": "Sitagliptin"
+            },
+            {
+                "option": "D",
+                "description": "Glimepiride"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrinology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 65-year-old female with a history of atrial fibrillation presents to the clinic for routine follow-up. She is currently on warfarin with an INR of 1.8, below her target range of 2.0-3.0. She reports no bleeding or changes in diet or medication adherence. The NP must adjust her anticoagulation therapy. What is the most appropriate action?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Discontinue warfarin and start a direct oral anticoagulant"
+            },
+            {
+                "option": "B",
+                "description": "Increase the warfarin dose and recheck INR in one week"
+            },
+            {
+                "option": "C",
+                "description": "Maintain the current dose and recheck INR in one month"
+            },
+            {
+                "option": "D",
+                "description": "Add aspirin to the current regimen"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Primary Care",
+        "practice_statement": "I.C.2.d",
+        "reference": " Thrombosis Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 38-year-old female with a history of migraines presents to the clinic with a severe headache unresponsive to over-the-counter analgesics. She describes unilateral throbbing pain with nausea and photophobia, lasting over 12 hours. The NP decides to prescribe an abortive therapy. According to Canadian guidelines, which medication is most appropriate for acute migraine management in this scenario?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Acetaminophen 1000 mg"
+            },
+            {
+                "option": "B",
+                "description": "Sumatriptan 50 mg"
+            },
+            {
+                "option": "C",
+                "description": "Propranolol 40 mg"
+            },
+            {
+                "option": "D",
+                "description": "Topiramate 25 mg"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Neurology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "RxFiles"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 70-year-old male with a history of heart failure presents with worsening dyspnea and bilateral leg edema over the past week. His current medications include furosemide 40 mg daily and enalapril 10 mg daily. His blood pressure is 110/70 mmHg, and his creatinine has increased from 110 to 150 µmol/L. The NP must adjust his management plan. What is the most appropriate next step?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Increase furosemide to 80 mg daily"
+            },
+            {
+                "option": "B",
+                "description": "Discontinue enalapril"
+            },
+            {
+                "option": "C",
+                "description": "Add spironolactone 25 mg daily"
+            },
+            {
+                "option": "D",
+                "description": "Refer to a nephrologist immediately"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Canadian Cardiovascular Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 25-year-old female presents to the clinic with a confirmed urinary tract infection (UTI) based on urinalysis showing significant bacteriuria. She is otherwise healthy, non-pregnant, and reports dysuria and frequency for three days. The NP reviews local resistance patterns and decides to prescribe an antibiotic. According to Canadian guidelines, which is the most appropriate first-line treatment for an uncomplicated UTI?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Ciprofloxacin 500 mg BID for 7 days"
+            },
+            {
+                "option": "B",
+                "description": "Nitrofurantoin 100 mg BID for 5 days"
+            },
+            {
+                "option": "C",
+                "description": "Amoxicillin 500 mg TID for 7 days"
+            },
+            {
+                "option": "D",
+                "description": "Trimethoprim 160 mg BID for 3 days"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Infectious Disease, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Anti-infective Guidelines for Community-acquired Infections"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 55-year-old male with a history of hypertension presents with a blood pressure of 160/100 mmHg despite adherence to amlodipine 10 mg daily. He denies symptoms such as headache or chest pain, and his renal function is normal. The NP considers combination therapy to achieve blood pressure control. According to Hypertension Canada guidelines, which additional medication is most appropriate to add?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Atenolol 50 mg daily"
+            },
+            {
+                "option": "B",
+                "description": "Hydrochlorothiazide 25 mg daily"
+            },
+            {
+                "option": "C",
+                "description": "Losartan 50 mg daily"
+            },
+            {
+                "option": "D",
+                "description": "Clonidine 0.1 mg BID"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Hypertension Canada 2020"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 42-year-old male with a 20-pack-year smoking history presents to the clinic for a routine visit. He expresses interest in quitting smoking but is unsure about the best approach. The NP discusses evidence-based cessation strategies and emphasizes the importance of behavioral support. Which of the following is the most effective initial counselling recommendation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Use nicotine replacement therapy and set a quit date"
+            },
+            {
+                "option": "B",
+                "description": "Switch to vaping as a safer alternative"
+            },
+            {
+                "option": "C",
+                "description": "Rely solely on willpower to quit cold turkey"
+            },
+            {
+                "option": "D",
+                "description": "Attend a yoga class to manage stress"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Health Promotion, Primary Care",
+        "practice_statement": "I.D.2.b",
+        "reference": "CAN-ADAPTT Smoking Cessation Guideline"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 33-year-old female presents to the clinic seeking advice on contraception options. She has a history of irregular menstrual cycles and prefers a method that does not require daily administration. The NP reviews her medical history, which is unremarkable, and discusses various contraceptive methods. Which option should the NP recommend as the most suitable based on her preferences?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Combined oral contraceptive pill"
+            },
+            {
+                "option": "B",
+                "description": "Intrauterine device (IUD)"
+            },
+            {
+                "option": "C",
+                "description": "Condoms"
+            },
+            {
+                "option": "D",
+                "description": "Diaphragm with spermicide"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Gynecology, Primary Care",
+        "practice_statement": "I.D.1.a",
+        "reference": "Society of Obstetricians and Gynaecologists of Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 67-year-old female is being discharged from the hospital following a hip replacement surgery. She lives alone and has limited mobility, requiring assistance with daily activities for the next few weeks. The NP is responsible for coordinating her discharge plan to ensure a safe transition home. Which component is essential to include in her discharge plan?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Referral to home care services for support"
+            },
+            {
+                "option": "B",
+                "description": "Prescription for antibiotics prophylactically"
+            },
+            {
+                "option": "C",
+                "description": "Instruction to follow up in six months"
+            },
+            {
+                "option": "D",
+                "description": "Recommendation to avoid all physical activity"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Musculoskeletal, Hospital",
+        "practice_statement": "I.E.1.a",
+        "reference": "Health Quality Ontario"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 50-year-old male with type 2 diabetes attends a follow-up visit via telemedicine after a recent adjustment to his insulin regimen. The NP documents the encounter in the electronic health record (EHR) to ensure continuity of care. Which element is most critical to include in the documentation to meet Canadian legal and professional standards?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Patient’s subjective report of symptoms and objective findings"
+            },
+            {
+                "option": "B",
+                "description": "A list of all medications ever prescribed"
+            },
+            {
+                "option": "C",
+                "description": "Personal opinions about the patient’s lifestyle"
+            },
+            {
+                "option": "D",
+                "description": "Abbreviated notes to save time"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Knowledge",
+        "clinical_context": "Adult, Endocrinology, Virtual Care",
+        "practice_statement": "I.E.2.a",
+        "reference": "BCCNM Standards"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 38-year-old male presents to a rural clinic complaining of chest pain for the past three hours. He describes the pain as a heavy, squeezing sensation in the center of his chest, radiating to his left arm. He denies any recent trauma but mentions a family history of heart disease. The NP must quickly assess the urgency of his condition. Which initial assessment step is most appropriate to determine if this is a cardiac emergency?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Perform an electrocardiogram (ECG)"
+            },
+            {
+                "option": "B",
+                "description": "Obtain a detailed dietary history"
+            },
+            {
+                "option": "C",
+                "description": "Check for musculoskeletal tenderness"
+            },
+            {
+                "option": "D",
+                "description": "Measure oxygen saturation only"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Heart and Stroke Foundation Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 62-year-old female with a history of chronic obstructive pulmonary disease (COPD) presents to the clinic reporting increased shortness of breath over the past two days. She uses a salbutamol inhaler as needed but notes it’s less effective recently. The NP observes her respiratory rate is 24 breaths per minute. What is the most critical initial assessment to evaluate the severity of her respiratory distress?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Auscultate lung sounds"
+            },
+            {
+                "option": "B",
+                "description": "Measure peak expiratory flow"
+            },
+            {
+                "option": "C",
+                "description": "Assess for accessory muscle use"
+            },
+            {
+                "option": "D",
+                "description": "Order a chest X-ray"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Respiratory, Primary Care",
+        "practice_statement": "I.A.3.b",
+        "reference": "Canadian Thoracic Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 25-year-old female visits a community clinic complaining of recurrent headaches for the past month. She describes them as throbbing, unilateral, and accompanied by nausea, occurring about twice a week. She has no history of trauma or neurological conditions. The NP suspects migraines. Which assessment finding would most strongly support this suspicion?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Bilateral tenderness over the sinuses"
+            },
+            {
+                "option": "B",
+                "description": "Photophobia during the headache"
+            },
+            {
+                "option": "C",
+                "description": "Elevated blood pressure"
+            },
+            {
+                "option": "D",
+                "description": "Neck stiffness on examination"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Neurology, Primary Care",
+        "practice_statement": "I.A.4.a",
+        "reference": "Canadian Headache Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 50-year-old male with a history of smoking presents to the clinic with a persistent cough for six weeks. He reports occasional blood-tinged sputum and unintentional weight loss of 4 kg. The NP is concerned about a possible malignancy. Which physical examination finding would most urgently warrant further investigation for lung cancer?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Clubbing of the fingers"
+            },
+            {
+                "option": "B",
+                "description": "Mild wheezing on auscultation"
+            },
+            {
+                "option": "C",
+                "description": "Slightly elevated respiratory rate"
+            },
+            {
+                "option": "D",
+                "description": "Dry oral mucosa"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Oncology, Primary Care",
+        "practice_statement": "I.A.4.c",
+        "reference": "Canadian Cancer Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 33-year-old female presents to the clinic reporting fatigue and palpitations for three weeks. She has no significant past medical history but mentions a recent stressful life event. The NP notes her pulse is irregularly irregular at 110 bpm. Suspecting atrial fibrillation, which assessment is most essential to guide immediate management?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Measure blood pressure"
+            },
+            {
+                "option": "B",
+                "description": "Perform a 12-lead ECG"
+            },
+            {
+                "option": "C",
+                "description": "Assess thyroid function"
+            },
+            {
+                "option": "D",
+                "description": "Check serum electrolytes"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Canadian Cardiovascular Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 70-year-old male presents to the clinic with complaints of lower abdominal pain and difficulty urinating for two days. He has a history of benign prostatic hyperplasia (BPH) and reports dribbling and a weak stream. The NP suspects urinary retention. Which physical assessment technique is most appropriate to confirm this suspicion?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Palpate the bladder for distension"
+            },
+            {
+                "option": "B",
+                "description": "Perform a digital rectal exam"
+            },
+            {
+                "option": "C",
+                "description": "Auscultate bowel sounds"
+            },
+            {
+                "option": "D",
+                "description": "Test for costovertebral angle tenderness"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Urology, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Urological Association"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 45-year-old female presents to the clinic with a five-day history of fever, sore throat, and swollen neck glands. She reports difficulty swallowing and no recent travel. The NP observes enlarged, tender cervical lymph nodes and erythematous tonsils with exudate. Which diagnostic test is most appropriate to assess for a bacterial cause of her symptoms?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Throat swab for culture"
+            },
+            {
+                "option": "B",
+                "description": "Complete blood count (CBC)"
+            },
+            {
+                "option": "C",
+                "description": "Monospot test"
+            },
+            {
+                "option": "D",
+                "description": "Chest X-ray"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Knowledge",
+        "clinical_context": "Adult, Infectious Disease, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Public Health Agency of Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 55-year-old male presents with complaints of burning epigastric pain that worsens after meals and at night. He denies weight loss or vomiting but admits to occasional NSAID use for back pain. The NP suspects peptic ulcer disease. Which diagnostic finding would most definitively confirm this condition?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Positive Helicobacter pylori test"
+            },
+            {
+                "option": "B",
+                "description": "Elevated serum gastrin levels"
+            },
+            {
+                "option": "C",
+                "description": "Esophageal pH monitoring"
+            },
+            {
+                "option": "D",
+                "description": "Normal abdominal ultrasound"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Gastroenterology, Primary Care",
+        "practice_statement": "I.B.1.a",
+        "reference": "Canadian Association of Gastroenterology"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 30-year-old female reports irregular menstrual cycles and excessive facial hair growth for the past year. She has gained 8 kg despite no change in diet or activity. The NP suspects polycystic ovary syndrome (PCOS). Which diagnostic criterion is most essential to establish this diagnosis according to Canadian guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Elevated fasting glucose"
+            },
+            {
+                "option": "B",
+                "description": "Ultrasound evidence of ovarian cysts"
+            },
+            {
+                "option": "C",
+                "description": "Hyperandrogenism and ovulatory dysfunction"
+            },
+            {
+                "option": "D",
+                "description": "Low thyroid-stimulating hormone (TSH)"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Endocrinology, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "Canadian Endocrine Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 65-year-old female presents with progressive memory loss and difficulty finding words over the past six months. Her family reports she repeats questions frequently. The NP suspects Alzheimer’s disease. Which clinical feature is most indicative of this diagnosis rather than normal aging?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Occasional forgetfulness of names"
+            },
+            {
+                "option": "B",
+                "description": "Impaired short-term memory affecting daily function"
+            },
+            {
+                "option": "C",
+                "description": "Mild difficulty with complex tasks"
+            },
+            {
+                "option": "D",
+                "description": "Slower reaction time in conversations"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Neurology, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "Alzheimer Society Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 48-year-old male with type 2 diabetes presents for a follow-up visit. His recent HbA1c is 8.5%, despite adherence to metformin 1000 mg twice daily. He has no other comorbidities. The NP decides to intensify his treatment. According to Diabetes Canada guidelines, which medication should be added next to improve glycemic control?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Sitagliptin"
+            },
+            {
+                "option": "B",
+                "description": "Insulin glargine"
+            },
+            {
+                "option": "C",
+                "description": "Acarbose"
+            },
+            {
+                "option": "D",
+                "description": "Glyburide"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrinology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 60-year-old female with hypertension presents with a blood pressure of 160/95 mmHg. She is currently on hydrochlorothiazide 25 mg daily but reports occasional dizziness. The NP considers adjusting her regimen to achieve target blood pressure. Which option aligns best with Hypertension Canada’s recommendations for this patient?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Switch to losartan 50 mg daily"
+            },
+            {
+                "option": "B",
+                "description": "Add amlodipine 5 mg daily"
+            },
+            {
+                "option": "C",
+                "description": "Increase hydrochlorothiazide to 50 mg daily"
+            },
+            {
+                "option": "D",
+                "description": "Prescribe a beta-blocker"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Hypertension Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 35-year-old male is diagnosed with acute uncomplicated cystitis. He reports dysuria and frequency for three days and has no drug allergies. The NP reviews local resistance patterns and Canadian guidelines. Which antibiotic is the most appropriate first-line treatment for this condition?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Ciprofloxacin 500 mg twice daily for 7 days"
+            },
+            {
+                "option": "B",
+                "description": "Nitrofurantoin 100 mg twice daily for 5 days"
+            },
+            {
+                "option": "C",
+                "description": "Amoxicillin 500 mg three times daily for 7 days"
+            },
+            {
+                "option": "D",
+                "description": "Trimethoprim-sulfamethoxazole 160/800 mg twice daily for 3 days"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Urology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Public Health Agency of Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 52-year-old female with osteoarthritis reports worsening knee pain despite regular acetaminophen use. She asks about additional pain relief options. The NP considers her age, comorbidities, and risk of side effects. Which non-pharmacological intervention should the NP recommend as the most evidence-based adjunct to her current therapy?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Acupuncture sessions"
+            },
+            {
+                "option": "B",
+                "description": "Supervised exercise program"
+            },
+            {
+                "option": "C",
+                "description": "Hot and cold therapy"
+            },
+            {
+                "option": "D",
+                "description": "Massage therapy"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.C.2.c",
+        "reference": "Canadian Rheumatology Association"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 40-year-old male with persistent asthma experiences frequent exacerbations despite using a medium-dose inhaled corticosteroid (ICS). The NP reviews his inhaler technique and adherence, which are adequate. According to GINA guidelines, which step should the NP take next to optimize his asthma control?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Add a long-acting beta-agonist (LABA)"
+            },
+            {
+                "option": "B",
+                "description": "Increase the ICS dose"
+            },
+            {
+                "option": "C",
+                "description": "Prescribe oral corticosteroids"
+            },
+            {
+                "option": "D",
+                "description": "Switch to a leukotriene receptor antagonist"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "GINA 2024"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 28-year-old female is diagnosed with mild persistent allergic rhinitis. She reports nasal congestion and sneezing triggered by dust and pollen. The NP aims to recommend an initial treatment with minimal side effects. Based on Canadian guidelines, which option should the NP prescribe as the most appropriate first-line therapy?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Oral antihistamine"
+            },
+            {
+                "option": "B",
+                "description": "Intranasal corticosteroid"
+            },
+            {
+                "option": "C",
+                "description": "Oral decongestant"
+            },
+            {
+                "option": "D",
+                "description": "Leukotriene receptor antagonist"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Allergy, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Canadian Allergy Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 45-year-old male with newly diagnosed hypertension expresses anxiety about starting medication. He is worried about side effects and long-term use. The NP aims to build trust and address his concerns effectively. Which counselling approach aligns best with Canadian NP standards for establishing a therapeutic relationship?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Provide a detailed list of all possible side effects"
+            },
+            {
+                "option": "B",
+                "description": "Use motivational interviewing to explore his concerns"
+            },
+            {
+                "option": "C",
+                "description": "Recommend immediate lifestyle changes only"
+            },
+            {
+                "option": "D",
+                "description": "Reassure him that side effects are rare"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.D.1.a",
+        "reference": "BCCNM Standards"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 32-year-old female seeks advice on smoking cessation during a routine visit. She smokes 10 cigarettes daily and has mixed feelings about quitting. The NP wants to support her autonomy while encouraging change. Which counselling strategy is most appropriate to initiate a discussion about cessation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Describe the health risks of smoking in detail"
+            },
+            {
+                "option": "B",
+                "description": "Ask open-ended questions about her readiness to quit"
+            },
+            {
+                "option": "C",
+                "description": "Prescribe nicotine replacement therapy immediately"
+            },
+            {
+                "option": "D",
+                "description": "Suggest cutting down gradually without a plan"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Public Health, Primary Care",
+        "practice_statement": "I.D.2.b",
+        "reference": "Canadian Action Network for the Advancement, Dissemination and Adoption of Practice-informed Tobacco Treatment"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 68-year-old male with heart failure is ready for discharge after a hospital stay for an acute exacerbation. The NP prepares a discharge summary to ensure continuity of care with his primary care provider. Which element is most critical to include in the documentation to prevent readmission?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Detailed list of all hospital staff involved"
+            },
+            {
+                "option": "B",
+                "description": "Instructions for weight monitoring and diuretic adjustment"
+            },
+            {
+                "option": "C",
+                "description": "General advice to avoid salty foods"
+            },
+            {
+                "option": "D",
+                "description": "Summary of past medical history only"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Hospital",
+        "practice_statement": "I.E.1.b",
+        "reference": "Canadian Heart Failure Network"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 50-year-old female with type 2 diabetes attends a virtual follow-up after starting insulin therapy. The NP documents the encounter in the electronic medical record (EMR). Which detail must be recorded to meet Canadian documentation standards and ensure safe care transitions?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Patient’s blood glucose readings and insulin doses"
+            },
+            {
+                "option": "B",
+                "description": "A list of all available community resources"
+            },
+            {
+                "option": "C",
+                "description": "The NP’s personal observations about the patient’s mood"
+            },
+            {
+                "option": "D",
+                "description": "Generic instructions for diet and exercise"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Knowledge",
+        "clinical_context": "Adult, Endocrinology, Virtual Care",
+        "practice_statement": "I.E.2.a",
+        "reference": "Canada Health Infoway"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 72-year-old male presents to the clinic complaining of intermittent chest pain for the past two weeks. He describes the pain as a heavy sensation that occurs during physical activity and subsides with rest. His medical history includes hypertension and a 20-pack-year smoking history. The nurse practitioner (NP) suspects angina pectoris. Which physical assessment finding would most strongly corroborate this suspicion?",
+        "options": [
+            {
+                "option": "A",
+                "description": "A loud systolic murmur at the apex"
+            },
+            {
+                "option": "B",
+                "description": "Relief of pain with deep breathing"
+            },
+            {
+                "option": "C",
+                "description": "Levine’s sign (clenched fist over chest)"
+            },
+            {
+                "option": "D",
+                "description": "Bilateral crackles in the lung bases"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Cardiovascular Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 28-year-old female presents to the clinic reporting a three-day history of dysuria and increased urinary frequency. She denies fever or flank pain but mentions mild suprapubic discomfort. The NP suspects an uncomplicated urinary tract infection (UTI). Which assessment technique should the NP prioritize to evaluate this patient’s condition?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Palpation for costovertebral angle tenderness"
+            },
+            {
+                "option": "B",
+                "description": "Obtaining a clean-catch urine sample for urinalysis"
+            },
+            {
+                "option": "C",
+                "description": "Auscultation of the abdomen for bowel sounds"
+            },
+            {
+                "option": "D",
+                "description": "Percussion of the spleen for enlargement"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Urology, Primary Care",
+        "practice_statement": "I.A.2.a",
+        "reference": "Canadian Urological Association"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 50-year-old male with a history of chronic obstructive pulmonary disease (COPD) presents to the clinic reporting worsening dyspnea over the past week. He uses a salbutamol inhaler as needed and mentions increased sputum production. The NP performs a respiratory assessment. Which finding would most indicate an acute exacerbation of COPD?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Decreased respiratory rate"
+            },
+            {
+                "option": "B",
+                "description": "Wheezing and prolonged expiration"
+            },
+            {
+                "option": "C",
+                "description": "Symmetrical chest expansion"
+            },
+            {
+                "option": "D",
+                "description": "Clear breath sounds bilaterally"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Thoracic Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 65-year-old female presents to the clinic with complaints of memory lapses and difficulty concentrating over the past six months. She lives alone and reports occasionally forgetting to turn off the stove. The NP suspects early cognitive impairment. Which standardized tool should the NP use to assess her cognitive function?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Patient Health Questionnaire-9 (PHQ-9)"
+            },
+            {
+                "option": "B",
+                "description": "Mini-Mental State Examination (MMSE)"
+            },
+            {
+                "option": "C",
+                "description": "Clock Drawing Test alone"
+            },
+            {
+                "option": "D",
+                "description": "Generalized Anxiety Disorder-7 (GAD-7)"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Neurology, Primary Care",
+        "practice_statement": "I.A.4.c",
+        "reference": "Alzheimer Society Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "A 10-year-old male presents to the clinic with a two-day history of fever, rash, and irritability. The NP notes a blanching erythematous rash on his trunk and extremities, and the child appears uncomfortable. The parents are worried about a possible infectious cause. Which vital sign should the NP assess first to guide the evaluation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Blood pressure"
+            },
+            {
+                "option": "B",
+                "description": "Temperature"
+            },
+            {
+                "option": "C",
+                "description": "Oxygen saturation"
+            },
+            {
+                "option": "D",
+                "description": "Respiratory rate"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Infectious Disease, Primary Care",
+        "practice_statement": "I.A.1.a",
+        "reference": "Canadian Paediatric Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 45-year-old female presents to the clinic with a six-week history of fatigue, polyuria, and unintentional weight loss of 5 kg. She denies recent infections or changes in diet. The NP suspects a metabolic disorder based on these symptoms. Which diagnosis is most consistent with this clinical presentation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Hypothyroidism"
+            },
+            {
+                "option": "B",
+                "description": "Type 2 diabetes mellitus"
+            },
+            {
+                "option": "C",
+                "description": "Chronic kidney disease"
+            },
+            {
+                "option": "D",
+                "description": "Hyperthyroidism"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Endocrinology, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "Diabetes Canada 2023"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "A 60-year-old male presents to the clinic reporting a persistent dry cough and shortness of breath for three months. He has a history of hypertension and a 25-pack-year smoking history. The NP orders a chest X-ray, which shows hyperinflation and flattened diaphragms. Which diagnosis is most likely based on these findings?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Pulmonary edema"
+            },
+            {
+                "option": "B",
+                "description": "Chronic obstructive pulmonary disease (COPD)"
+            },
+            {
+                "option": "C",
+                "description": "Pneumothorax"
+            },
+            {
+                "option": "D",
+                "description": "Interstitial lung disease"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Respiratory, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "Canadian Thoracic Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 55-year-old male with hypertension presents to the clinic with a blood pressure of 160/100 mmHg despite adherence to lisinopril 20 mg daily. He denies side effects and has no other comorbidities. The NP decides to adjust his antihypertensive therapy. According to Hypertension Canada guidelines, which medication should be added to optimize blood pressure control?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Metoprolol 50 mg daily"
+            },
+            {
+                "option": "B",
+                "description": "Amlodipine 5 mg daily"
+            },
+            {
+                "option": "C",
+                "description": "Spironolactone 25 mg daily"
+            },
+            {
+                "option": "D",
+                "description": "Furosemide 40 mg daily"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        " pratice_statement": "I.C.2.b",
+        "reference": "Hypertension Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 30-year-old female presents to the clinic with an acute asthma exacerbation. She reports wheezing and dyspnea for the past 12 hours, unrelieved by her salbutamol inhaler. Her peak expiratory flow rate (PEFR) is 60% of her personal best. The NP initiates treatment. Which medication should be administered first according to Canadian guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Oral prednisone"
+            },
+            {
+                "option": "B",
+                "description": "Inhaled salbutamol via nebulizer"
+            },
+            {
+                "option": "C",
+                "description": "Montelukast 10 mg"
+            },
+            {
+                "option": "D",
+                "description": "Ipratropium bromide"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "GINA 2024"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 68-year-old female with osteoporosis presents to the clinic for follow-up. She has been taking alendronate 70 mg weekly for one year but reports new epigastric pain. A recent bone density scan shows stable T-scores. The NP considers modifying her treatment plan. Which management option is most appropriate given her symptoms?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Continue alendronate and add a proton pump inhibitor"
+            },
+            {
+                "option": "B",
+                "description": "Switch to denosumab 60 mg subcutaneously every 6 months"
+            },
+            {
+                "option": "C",
+                "description": "Increase alendronate to 70 mg twice weekly"
+            },
+            {
+                "option": "D",
+                "description": "Discontinue all osteoporosis medications"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Musculoskeletal, Primary Care",
+        "practice_statement": "I.C.2.d",
+        "reference": "Osteoporosis Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "A 40-year-old male with allergic rhinitis presents to the clinic reporting persistent nasal congestion and sneezing despite using over-the-counter antihistamines. His symptoms interfere with sleep and work. The NP decides to prescribe a medication. Which option is most appropriate as first-line therapy according to Canadian guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Oral cetirizine"
+            },
+            {
+                "option": "B",
+                "description": "Intranasal fluticasone"
+            },
+            {
+                "option": "C",
+                "description": "Montelukast"
+            },
+            {
+                "option": "D",
+                "description": "Oral pseudoephedrine"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Allergy, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Canadian Allergy Society"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 52-year-old male with newly diagnosed hypertension presents to the clinic for a follow-up visit. He has started lisinopril but is hesitant to continue due to concerns about long-term medication use. He asks about non-pharmacological options to manage his blood pressure. Which counselling approach should the NP prioritize to address his concerns effectively?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Advise immediate discontinuation of lisinopril"
+            },
+            {
+                "option": "B",
+                "description": "Discuss lifestyle modifications including diet and exercise"
+            },
+            {
+                "option": "C",
+                "description": "Recommend herbal supplements as an alternative"
+            },
+            {
+                "option": "D",
+                "description": "Dismiss his concerns and emphasize medication adherence"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Cardiology, Primary Care",
+        "practice_statement": "I.D.1.b",
+        "reference": "Hypertension Canada"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "A 35-year-old female presents to the clinic requesting advice on weight management. She has a BMI of 32 kg/m² and a family history of type 2 diabetes. She is motivated to make changes but unsure where to start. The NP provides evidence-based counselling. Which recommendation is most appropriate to initiate her weight loss plan?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Begin a low-carbohydrate diet with a caloric deficit"
+            },
+            {
+                "option": "B",
+                "description": "Start a fasting regimen 5 days per week"
+            },
+            {
+                "option": "C",
+                "description": "Use over-the-counter weight loss pills"
+            },
+            {
+                "option": "D",
+                "description": "Focus solely on high-intensity exercise"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Health Promotion, Primary Care",
+        "practice_statement": "I.D.2.a",
+        "reference": "Canadian Obesity Network"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 75-year-old male with chronic heart failure is being discharged from the hospital after a four-day admission for fluid overload. He is prescribed furosemide and an ACE inhibitor. The NP prepares his discharge summary. Which element is most essential to document to ensure continuity of care in the community?",
+        "options": [
+            {
+                "option": "A",
+                "description": "List of hospital meal preferences"
+            },
+            {
+                "option": "B",
+                "description": "Current medication doses and follow-up plan"
+            },
+            {
+                "option": "C",
+                "description": "Names of all consulting physicians"
+            },
+            {
+                "option": "D",
+                "description": "General advice to rest at home"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiology, Hospital",
+        "practice_statement": "I.E.2.a",
+        "reference": "Canadian Heart Failure Network"
+    },
+    {
+        "model": "Grok",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care / Discharge Planning / Documentation",
+        "question": "A 45-year-old female with type 2 diabetes attends a clinic visit after a recent emergency department visit for hyperglycemia. She is now on metformin and insulin. The NP updates her electronic medical record (EMR). Which detail must be included to comply with Canadian documentation standards for safe care transitions?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Her recent blood glucose readings and insulin adjustments"
+            },
+            {
+                "option": "B",
+                "description": "A summary of her social hobbies"
+            },
+            {
+                "option": "C",
+                "description": "Generic dietary recommendations"
+            },
+            {
+                "option": "D",
+                "description": "The NP’s personal notes on her demeanor"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrinology, Primary Care",
+        "practice_statement": "I.E.2.a",
+        "reference": "Canada Health Infoway"
+    },
+    {
+        "model": "Grok",
+        "type": "case",
+        "domain": "Clinician",
+        "scenario": "Mrs. Johnson, a 55-year-old woman with a history of type 2 diabetes, presents to the clinic complaining of increased thirst and frequent urination over the past two weeks. She has been taking metformin 500 mg twice daily but admits to occasionally missing doses. Her last HbA1c was 8.2% three months ago. She also mentions feeling more tired than usual and has noticed some tingling in her feet.",
+        "questions": [
+            {
+                "number": 1,
+                "domain": "Clinician",
+                "subdomain": "Assessment",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Order a repeat HbA1c test"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Perform a point-of-care blood glucose test"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Schedule a fundoscopic examination"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Refer her for a neurological assessment"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.1.d",
+                "clinical_context": "Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+            },
+            {
+                "number": 2,
+                "domain": "Clinician",
+                "subdomain": "Assessment",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Test for loss of protective sensation using a monofilament"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Measure ankle-brachial index"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Perform a straight leg raise test"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Assess for pedal edema"
+                    }
+                ],
+                "correct": {
+                    "option": "A"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.A.4.b",
+                "clinical_context": "Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+            },
+            {
+                "number": 3,
+                "domain": "Clinician",
+                "subdomain": "Diagnosis",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Hypoglycemia"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Hyperglycemia"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Urinary tract infection"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Diabetic ketoacidosis"
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.B.1.b",
+                "clinical_context": "Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+            },
+            {
+                "number": 4,
+                "domain": "Clinician",
+                "subdomain": "Management",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "Continue metformin 500 mg twice daily and reassess in three months"
+                    },
+                    {
+                        "option": "B",
+                        "description": "Increase metformin to 1000 mg twice daily"
+                    },
+                    {
+                        "option": "C",
+                        "description": "Add a second oral antihyperglycemic agent"
+                    },
+                    {
+                        "option": "D",
+                        "description": "Initiate basal insulin therapy"
+                    }
+                ],
+                "correct": {
+                    "option": "C"
+                },
+                "difficulty": "Hard",
+                "cognitive": "Critical Thinking",
+                "practice_statement": "I.C.2.b",
+                "clinical_context": "Adult, Endocrinology, Primary Care",
+                "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+            },
+            {
+                "number": 5,
+                "domain": "Clinician",
+                "subdomain": "Counselling",
+                "options": [
+                    {
+                        "option": "A",
+                        "description": "\"It's important to take your medication as prescribed to control your blood sugar.\""
+                    },
+                    {
+                        "option": "B",
+                        "description": "\"Let's explore what makes it difficult for you to take your medication regularly.\""
+                    },
+                    {
+                        "option": "C",
+                        "description": "\"If you don't take your medication, your diabetes will get worse.\""
+                    },
+                    {
+                        "option": "D",
+                        "description": "\"I can prescribe a different medication if this one is too hard to remember.\""
+                    }
+                ],
+                "correct": {
+                    "option": "B"
+                },
+                "difficulty": "Medium",
+                "cognitive": "Application",
+                "practice_statement": "I.D.1.a",
+                "clinical_context": "Adult, Endocrinology, Primary Care",
+                "reference": "Motivational Interviewing in Healthcare, 2020"
+            }
+        ]
+    }
+]

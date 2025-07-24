@@ -713,6 +713,9 @@ const flattenExamData = (rawData: MCQData[]): FlattenedMCQ[] => {
   }
   
   rawData.forEach((item, index) => {
+    if(!item.type){
+      console.log('item', item)
+    }
     if (item.type.includes('case')) {
       // Handle case-based questions
       const caseData = item as CaseMCQData

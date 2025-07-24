@@ -1,0 +1,1322 @@
+[
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "1. A 68-year-old male presents to your primary care clinic with a 3-week history of progressive exertional dyspnea and bilateral ankle edema. He reports orthopnea requiring 3 pillows at night and occasional paroxysmal nocturnal dyspnea. His past medical history includes type 2 diabetes, hypertension, and a 40-pack-year smoking history (quit 5 years ago). On examination, you note JVP elevated to 8 cm above the sternal angle, bilateral crackles to mid-lung fields, and 2+ pitting edema to mid-shins bilaterally. Which combination of initial investigations would be MOST appropriate to order at this visit?",
+        "options": [
+            {
+                "option": "A",
+                "description": "CBC, electrolytes, creatinine, TSH, troponin, BNP, ECG, chest X-ray"
+            },
+            {
+                "option": "B",
+                "description": "CBC, liver enzymes, lipid profile, HbA1c, ECG, echocardiogram"
+            },
+            {
+                "option": "C",
+                "description": "Arterial blood gas, D-dimer, troponin, CT pulmonary angiogram"
+            },
+            {
+                "option": "D",
+                "description": "CBC, urinalysis, urine protein/creatinine ratio, renal ultrasound"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiovascular, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "CCS Heart Failure Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "2. A 42-year-old female presents with a 6-month history of fatigue, weight gain of 8 kg, constipation, and feeling cold all the time. She mentions her menstrual periods have become heavier and more irregular. On examination, you notice dry skin, thinning of the lateral eyebrows, and a slightly enlarged thyroid gland that feels firm but non-tender. Her vital signs show BP 138/88, HR 58, temperature 36.2°C. When conducting a review of systems specific to thyroid dysfunction, which additional symptoms would be MOST important to explore to support your clinical suspicion?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Heat intolerance, palpitations, tremor, and diarrhea"
+            },
+            {
+                "option": "B",
+                "description": "Hair loss, hoarse voice, muscle cramps, and depression"
+            },
+            {
+                "option": "C",
+                "description": "Chest pain, shortness of breath, and peripheral edema"
+            },
+            {
+                "option": "D",
+                "description": "Polyuria, polydipsia, blurred vision, and weight loss"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrine, Primary Care",
+        "practice_statement": "I.A.4.e",
+        "reference": "Choosing Wisely Canada - Thyroid Testing 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "3. During a routine well-child visit, you are assessing a 4-year-old boy whose parents express concern about his behavior at preschool. The teacher reports he has difficulty sitting still during circle time, frequently interrupts others, and has trouble waiting his turn. At home, parents note he's always 'on the go' and has difficulty following multi-step instructions. Before considering ADHD as a diagnosis, which assessment approach would be MOST appropriate according to best practice guidelines?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order comprehensive metabolic panel, thyroid function tests, and lead levels before behavioral assessment"
+            },
+            {
+                "option": "B",
+                "description": "Immediately refer to pediatric psychiatry for medication evaluation"
+            },
+            {
+                "option": "C",
+                "description": "Obtain standardized behavior rating scales from both parents and teachers, conduct developmental screening, and assess for comorbidities"
+            },
+            {
+                "option": "D",
+                "description": "Recommend behavioral therapy only and reassess in 6 months"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Child, Mental Health, Primary Care",
+        "practice_statement": "I.A.4.d",
+        "reference": "CADDRA Canadian ADHD Practice Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "4. A 35-year-old Indigenous woman presents for her first prenatal visit at 10 weeks gestation. She has a history of gestational diabetes in her previous pregnancy 3 years ago and a family history of type 2 diabetes. Her pre-pregnancy BMI was 32 kg/m². When planning her prenatal screening schedule, considering her risk factors and current Canadian guidelines, when should you order the oral glucose tolerance test (OGTT) for gestational diabetes screening?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Immediately at first prenatal visit and repeat at 24-28 weeks if initial test is negative"
+            },
+            {
+                "option": "B",
+                "description": "Only at 24-28 weeks as per routine screening"
+            },
+            {
+                "option": "C",
+                "description": "At 16-18 weeks and repeat at 28-32 weeks"
+            },
+            {
+                "option": "D",
+                "description": "No screening needed if HbA1c is less than 6.5%"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Obstetrics, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "5. A 28-year-old male presents with acute onset of severe scrotal pain that woke him from sleep 3 hours ago. He reports nausea and has vomited once. On examination, the left testicle is elevated, extremely tender, and the cremasteric reflex is absent. His temperature is 37.8°C. Given the clinical presentation and time-sensitive nature of the suspected condition, what is the MOST appropriate immediate action?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order urgent scrotal ultrasound with Doppler and await results before further action"
+            },
+            {
+                "option": "B",
+                "description": "Administer broad-spectrum antibiotics for suspected epididymitis and reassess in 24 hours"
+            },
+            {
+                "option": "C",
+                "description": "Provide analgesia and immediate referral to emergency department for surgical evaluation"
+            },
+            {
+                "option": "D",
+                "description": "Perform manual detorsion attempt in office before considering referral"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Genitourinary, Urgent Care",
+        "practice_statement": "I.A.1.c",
+        "reference": "CUA Guidelines - Acute Scrotum 2022"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "6. An 82-year-old woman is brought to your clinic by her daughter who is concerned about her mother's memory. The daughter reports her mother has been getting lost while driving in familiar areas, forgetting to pay bills, and recently left the stove on overnight. The patient denies any problems and insists she's 'just getting older.' During your assessment, which validated screening tool would be MOST appropriate to administer initially in the primary care setting?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Comprehensive neuropsychological battery testing"
+            },
+            {
+                "option": "B",
+                "description": "Montreal Cognitive Assessment (MoCA) or Mini-Mental State Examination (MMSE)"
+            },
+            {
+                "option": "C",
+                "description": "CT head scan followed by geriatric psychiatry referral"
+            },
+            {
+                "option": "D",
+                "description": "Clock drawing test alone"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Neurology, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Consensus Guidelines on Dementia 2020"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "7. A 19-year-old female university student presents with concerns about her eating habits. She reports restricting her food intake, exercising 2-3 hours daily, and feeling 'huge' despite others telling her she looks thin. Her BMI is 17.2 kg/m². She admits to using laxatives occasionally and missing her menstrual periods for the past 4 months. When conducting a comprehensive assessment for suspected eating disorder, which physiological parameters require immediate evaluation due to potential life-threatening complications?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Serum ferritin and vitamin B12 levels only"
+            },
+            {
+                "option": "B",
+                "description": "Complete thyroid panel and cortisol levels"
+            },
+            {
+                "option": "C",
+                "description": "Electrolytes, ECG, orthostatic vital signs, and complete blood count"
+            },
+            {
+                "option": "D",
+                "description": "Bone density scan and growth hormone levels"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Mental Health, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Canadian Practice Guidelines for Eating Disorders 2020"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "8. A 55-year-old male presents with a 3-month history of epigastric pain that improves with eating and worsens 2-3 hours after meals. He reports occasional dark, tarry stools and has been using ibuprofen regularly for chronic knee pain. He has a 20-year history of smoking. His hemoglobin is 102 g/L (previously 145 g/L one year ago). Based on this presentation and considering current Canadian guidelines for H. pylori testing, which diagnostic approach would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Urea breath test for H. pylori and treat if positive"
+            },
+            {
+                "option": "B",
+                "description": "Empiric PPI therapy for 8 weeks and reassess"
+            },
+            {
+                "option": "C",
+                "description": "Urgent referral for upper endoscopy with biopsy"
+            },
+            {
+                "option": "D",
+                "description": "Stool antigen test for H. pylori and CBC monitoring"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Gastrointestinal, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "CAG Dyspepsia Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "9. A 6-year-old child presents with a 2-day history of fever, sore throat, and difficulty swallowing. On examination, you note pharyngeal erythema, tonsillar exudate, tender anterior cervical lymphadenopathy, and absence of cough. The child has no known drug allergies. Using the modified Centor criteria, the score is 4. What is the MOST appropriate next step in establishing the diagnosis?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Empirically treat with amoxicillin based on high clinical probability"
+            },
+            {
+                "option": "B",
+                "description": "Perform rapid antigen detection test (RADT) for Group A Streptococcus"
+            },
+            {
+                "option": "C",
+                "description": "Order throat culture and await results before treatment"
+            },
+            {
+                "option": "D",
+                "description": "Prescribe supportive care only as likely viral pharyngitis"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Infectious Disease, Primary Care",
+        "practice_statement": "I.B.1.a",
+        "reference": "Canadian Paediatric Society Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "10. A 45-year-old woman with well-controlled asthma on low-dose ICS/LABA presents with worsening dyspnea over 3 months despite good adherence to therapy. She now experiences breathlessness walking up one flight of stairs. Spirometry shows FEV1/FVC ratio of 0.65 with minimal bronchodilator response. She has a 25-pack-year smoking history (quit 2 years ago). What is the MOST likely diagnosis explaining her current presentation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Severe persistent asthma requiring step-up therapy"
+            },
+            {
+                "option": "B",
+                "description": "Asthma-COPD overlap syndrome (ACOS)"
+            },
+            {
+                "option": "C",
+                "description": "Exercise-induced bronchospasm"
+            },
+            {
+                "option": "D",
+                "description": "Medication non-adherence with poor inhaler technique"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "11. A 72-year-old male with newly diagnosed atrial fibrillation has a CHA2DS2-VASc score of 4 and HAS-BLED score of 2. His creatinine clearance is 45 mL/min, and he has no history of bleeding. He takes amlodipine for hypertension and atorvastatin for dyslipidemia. According to current Canadian cardiovascular guidelines, which anticoagulation strategy would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Warfarin with target INR 2-3 due to renal impairment"
+            },
+            {
+                "option": "B",
+                "description": "Apixaban 5 mg PO BID"
+            },
+            {
+                "option": "C",
+                "description": "Apixaban 2.5 mg PO BID with dose reduction for renal function"
+            },
+            {
+                "option": "D",
+                "description": "ASA 81 mg daily given bleeding risk"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Cardiovascular, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "CCS Atrial Fibrillation Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "12. A 58-year-old woman with type 2 diabetes presents for routine follow-up. Her HbA1c is 8.2% on metformin 1000 mg BID. She has a BMI of 34 kg/m², eGFR of 72 mL/min/1.73m², and a history of myocardial infarction 2 years ago. Her insurance covers medications, and she's motivated to improve her control. Based on current Diabetes Canada guidelines, which medication would be the MOST appropriate to add?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Gliclazide 80 mg daily"
+            },
+            {
+                "option": "B",
+                "description": "Sitagliptin 100 mg daily"
+            },
+            {
+                "option": "C",
+                "description": "Empagliflozin 10 mg daily"
+            },
+            {
+                "option": "D",
+                "description": "NPH insulin 10 units at bedtime"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Endocrine, Primary Care",
+        "practice_statement": "I.C.1.d",
+        "reference": "Diabetes Canada Clinical Practice Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "13. An 8-year-old child weighing 25 kg presents with acute otitis media. Examination reveals a bulging, erythematous tympanic membrane with loss of landmarks. The child has no drug allergies and no antibiotics in the past 3 months. The parents prefer to avoid antibiotics if possible. According to Canadian guidelines, what is the MOST appropriate management approach?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe amoxicillin 45 mg/kg/day divided BID for 5 days"
+            },
+            {
+                "option": "B",
+                "description": "Provide a wait-and-see prescription for amoxicillin with instructions to fill if no improvement in 48-72 hours"
+            },
+            {
+                "option": "C",
+                "description": "Prescribe amoxicillin 90 mg/kg/day divided BID for 10 days"
+            },
+            {
+                "option": "D",
+                "description": "Recommend acetaminophen and ibuprofen only with follow-up in 48 hours"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Infectious Disease, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Canadian Paediatric Society AOM Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "14. A 32-year-old woman with moderate persistent asthma currently uses budesonide/formoterol 200/6 mcg one puff BID. She reports using her reliever inhaler (salbutamol) 4-5 times per week and waking at night with symptoms twice weekly. Her technique is good, and she's adherent to therapy. According to GINA 2024 guidelines, what is the MOST appropriate step in her management?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Add montelukast 10 mg daily to current regimen"
+            },
+            {
+                "option": "B",
+                "description": "Increase budesonide/formoterol to 2 puffs BID"
+            },
+            {
+                "option": "C",
+                "description": "Switch to budesonide/formoterol as both maintenance and reliever therapy (MART)"
+            },
+            {
+                "option": "D",
+                "description": "Add tiotropium 2.5 mcg daily via soft mist inhaler"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.C.1.d",
+        "reference": "GINA Asthma Guidelines 2024"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "15. A 78-year-old man in long-term care has moderate Alzheimer's dementia and exhibits increasing agitation, especially during evening care routines. He has pushed caregivers twice this week. Non-pharmacological interventions have been optimized. His medications include donepezil 10 mg daily and metoprolol 50 mg BID. Which pharmacological intervention would be MOST appropriate as initial therapy?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Haloperidol 0.5 mg PO BID scheduled"
+            },
+            {
+                "option": "B",
+                "description": "Risperidone 0.25 mg PO daily at 4 PM"
+            },
+            {
+                "option": "C",
+                "description": "Lorazepam 0.5 mg PO TID scheduled"
+            },
+            {
+                "option": "D",
+                "description": "Trazodone 25 mg PO at bedtime"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Mental Health, Long-term Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "CCSMH Canadian Guidelines Behavioral Symptoms Dementia 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "16. A 26-year-old woman requests emergency contraception after unprotected intercourse 36 hours ago. She has a BMI of 32 kg/m², regular 28-day cycles, and her last menstrual period started 12 days ago. She has no contraindications to hormonal methods. Based on current evidence and Canadian guidelines, which emergency contraceptive option would be MOST effective?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Levonorgestrel 1.5 mg PO as a single dose"
+            },
+            {
+                "option": "B",
+                "description": "Copper IUD insertion within 5 days"
+            },
+            {
+                "option": "C",
+                "description": "Ulipristal acetate 30 mg PO as a single dose"
+            },
+            {
+                "option": "D",
+                "description": "Levonorgestrel 3 mg PO as a single dose due to BMI"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Reproductive Health, Primary Care",
+        "practice_statement": "I.C.1.a",
+        "reference": "SOGC Contraception Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "17. A 48-year-old Indigenous man with newly diagnosed type 2 diabetes expresses frustration about lifestyle changes, stating 'My grandmother lived to 89 eating traditional foods and never exercised.' He's reluctant to start metformin, preferring traditional medicine approaches. Using culturally safe counselling techniques, which response would BEST facilitate a therapeutic relationship while addressing his healthcare needs?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Explain that modern lifestyles require different approaches than his grandmother's generation"
+            },
+            {
+                "option": "B",
+                "description": "Explore his understanding of traditional foods and medicines, acknowledging their value while discussing how they might complement conventional diabetes management"
+            },
+            {
+                "option": "C",
+                "description": "Provide statistics about diabetes complications to emphasize the importance of medication"
+            },
+            {
+                "option": "D",
+                "description": "Refer him to an endocrinologist who can better explain the need for metformin"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Endocrine, Primary Care",
+        "practice_statement": "I.D.1.a",
+        "reference": "Indigenous Diabetes Health Circle Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "18. A 22-year-old university student presents requesting help with cannabis use. He smokes marijuana daily to manage anxiety and help with sleep but is concerned about his grades dropping and difficulty concentrating. He's tried to quit several times but experiences irritability and insomnia. Using harm reduction principles, which counselling approach would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Insist on complete abstinence and refer to addiction services immediately"
+            },
+            {
+                "option": "B",
+                "description": "Explore his readiness to change, discuss gradual reduction strategies, and offer support for managing withdrawal symptoms while addressing underlying anxiety"
+            },
+            {
+                "option": "C",
+                "description": "Prescribe zopiclone for sleep and refer to psychiatry for anxiety management"
+            },
+            {
+                "option": "D",
+                "description": "Advise switching to CBD-only products as they have no psychoactive effects"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Young Adult, Mental Health, Primary Care",
+        "practice_statement": "I.D.3.b",
+        "reference": "CAMH Low-Risk Cannabis Use Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care",
+        "question": "19. An 85-year-old woman with moderate dementia, diabetes, and heart failure is being discharged from hospital after treatment for pneumonia. She lives alone with home care support twice daily. Her daughter works full-time but is involved in her care. Which discharge planning element is MOST critical to prevent readmission within 30 days?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Scheduling a follow-up appointment with her family physician within 7 days"
+            },
+            {
+                "option": "B",
+                "description": "Ensuring medication reconciliation with clear instructions for the daughter and home care providers, including a simplified medication schedule"
+            },
+            {
+                "option": "C",
+                "description": "Providing the daughter with a copy of the hospital discharge summary"
+            },
+            {
+                "option": "D",
+                "description": "Arranging increased home care to three times daily"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Geriatrics, Transition Care",
+        "practice_statement": "I.E.1.d",
+        "reference": "Canadian Patient Safety Institute Medication Reconciliation 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care",
+        "question": "20. You are conducting a virtual visit with a 40-year-old woman who reports new onset severe headache, photophobia, and neck stiffness that started 2 hours ago. She has no significant past medical history. Her home blood pressure monitor shows 156/94 mmHg. Based on virtual care limitations and patient safety considerations, what is the MOST appropriate action?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Prescribe sumatriptan 100 mg PO and schedule in-person follow-up tomorrow"
+            },
+            {
+                "option": "B",
+                "description": "Order urgent CT head and advise to go for imaging today"
+            },
+            {
+                "option": "C",
+                "description": "Advise immediate emergency department assessment given red flags requiring urgent in-person evaluation"
+            },
+            {
+                "option": "D",
+                "description": "Prescribe naproxen 500 mg PO BID and monitor symptoms over video"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Neurology, Virtual Care",
+        "practice_statement": "I.E.4.d",
+        "reference": "CMA Virtual Care Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "1. A 16-year-old female competitive swimmer presents with a 4-week history of progressive fatigue, decreased athletic performance, and feeling cold despite warm weather. She reports heavy menstrual periods lasting 7-8 days and follows a vegetarian diet. Physical examination reveals pale conjunctivae, brittle nails with koilonychia, and a resting heart rate of 110 bpm. Her coach mentions she seems less focused during practice. Which combination of laboratory investigations would be MOST appropriate to order initially to guide diagnosis and management?",
+        "options": [
+            {
+                "option": "A",
+                "description": "CBC with differential, ferritin, serum iron, TIBC, and TSH"
+            },
+            {
+                "option": "B",
+                "description": "CBC only and treat empirically with iron supplements"
+            },
+            {
+                "option": "C",
+                "description": "CBC, comprehensive metabolic panel, and ECG"
+            },
+            {
+                "option": "D",
+                "description": "Ferritin, B12, folate, and transferrin saturation only"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adolescent, Hematology, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "Canadian Pediatric Society - Iron Deficiency 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "2. A 62-year-old man with a history of alcohol use disorder (in remission for 6 months) presents with burning pain in both feet, worse at night, and difficulty with balance. He reports numbness in a 'stocking' distribution and has fallen twice in the past month. His current medications include thiamine and folate supplements. On examination, you note absent ankle reflexes bilaterally and decreased vibration sense. When conducting a comprehensive assessment for peripheral neuropathy, which additional evaluations would be MOST important to perform?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Romberg test, monofilament testing, orthostatic vitals, and nutritional assessment including B12 levels"
+            },
+            {
+                "option": "B",
+                "description": "MRI spine, EMG/nerve conduction studies immediately"
+            },
+            {
+                "option": "C",
+                "description": "Ankle-brachial index and arterial Doppler studies"
+            },
+            {
+                "option": "D",
+                "description": "Psychiatric assessment for depression and anxiety only"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Neurology, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Diabetes Association - Neuropathy Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "3. A 3-year-old boy is brought in by his parents who are concerned about his speech development. He uses about 20 single words but no two-word phrases, points to communicate, and becomes frustrated when not understood. He makes good eye contact, enjoys playing with other children, and meets all gross motor milestones. His hearing screen at birth was normal. Before referring for speech therapy, which assessment would be MOST important to complete first?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Comprehensive developmental screening using a validated tool like Ages and Stages Questionnaire"
+            },
+            {
+                "option": "B",
+                "description": "Immediate referral to developmental pediatrics without further assessment"
+            },
+            {
+                "option": "C",
+                "description": "Formal audiometry testing to rule out hearing loss"
+            },
+            {
+                "option": "D",
+                "description": "MRI brain to rule out structural abnormalities"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Developmental, Primary Care",
+        "practice_statement": "I.A.4.a",
+        "reference": "Canadian Paediatric Society - Speech Delay 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "4. A 52-year-old perimenopausal woman presents with complaints of irregular periods, hot flashes, night sweats, mood swings, and vaginal dryness affecting her relationship. She has a history of treated breast cancer 5 years ago (ER/PR positive) and is concerned about hormone therapy. Her mother had osteoporosis with hip fracture at age 70. When conducting a comprehensive menopause assessment, which screening evaluations should be prioritized given her risk factors?",
+        "options": [
+            {
+                "option": "A",
+                "description": "FSH, estradiol levels, and endometrial biopsy"
+            },
+            {
+                "option": "B",
+                "description": "Bone density scan, lipid profile, and validated menopause symptom questionnaire"
+            },
+            {
+                "option": "C",
+                "description": "Mammogram, pelvic ultrasound, and CA-125"
+            },
+            {
+                "option": "D",
+                "description": "TSH only as symptoms might be thyroid-related"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Women's Health, Primary Care",
+        "practice_statement": "I.A.3.a",
+        "reference": "SOGC Menopause Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "5. A 25-year-old male presents to your walk-in clinic with sudden onset of severe, sharp left-sided chest pain and mild dyspnea that started while playing basketball 2 hours ago. He is tall and thin (BMI 19), has no cardiac risk factors, and vital signs show: BP 125/75, HR 96, RR 20, O2 sat 94% on room air. The pain worsens with deep inspiration. Given the presentation and need to rule out life-threatening conditions, what is the MOST appropriate initial assessment approach?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Order D-dimer and if positive, proceed to CT pulmonary angiogram"
+            },
+            {
+                "option": "B",
+                "description": "Perform focused cardiovascular and respiratory exam, obtain ECG and chest X-ray"
+            },
+            {
+                "option": "C",
+                "description": "Apply Wells criteria and PERC rule before any imaging"
+            },
+            {
+                "option": "D",
+                "description": "Immediate transfer to emergency department without initial workup"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Young Adult, Respiratory, Urgent Care",
+        "practice_statement": "I.A.1.c",
+        "reference": "Choosing Wisely Canada - Chest Pain 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "6. An 11-month-old infant is brought in for evaluation of recurrent wheezing episodes. The mother reports 4 episodes in the past 6 months, usually associated with upper respiratory infections. Between episodes, the child is well with normal growth and development. Family history is positive for asthma (father) and eczema (older sibling). Physical examination today shows mild expiratory wheeze but no distress. Which assessment tool would be MOST helpful in predicting the likelihood of persistent asthma?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Modified Asthma Predictive Index (mAPI) incorporating major and minor criteria"
+            },
+            {
+                "option": "B",
+                "description": "Chest X-ray to look for hyperinflation"
+            },
+            {
+                "option": "C",
+                "description": "Trial of bronchodilator therapy response"
+            },
+            {
+                "option": "D",
+                "description": "Serum IgE levels and specific allergen testing"
+            }
+        ],
+        "correct": {
+            "option": "A"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Infant, Respiratory, Primary Care",
+        "practice_statement": "I.A.4.b",
+        "reference": "Canadian Thoracic Society - Preschool Asthma 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Assessment",
+        "question": "7. A 38-year-old woman presents requesting screening for sexually transmitted infections. She has a new partner and reports inconsistent condom use. She has no symptoms but is concerned after learning her ex-partner was diagnosed with chlamydia. Her last screening was 2 years ago. She has an IUD for contraception and no drug allergies. According to current Canadian STI guidelines, which comprehensive screening approach would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Urine NAAT for chlamydia and gonorrhea only since she's asymptomatic"
+            },
+            {
+                "option": "B",
+                "description": "Urine NAAT for CT/GC, HIV serology, syphilis serology, and hepatitis B and C screening"
+            },
+            {
+                "option": "C",
+                "description": "Vaginal swab for CT/GC and blood work only if symptoms develop"
+            },
+            {
+                "option": "D",
+                "description": "Pap test with HPV co-testing plus STI bloodwork"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Sexual Health, Primary Care",
+        "practice_statement": "I.A.4.f",
+        "reference": "PHAC Canadian STI Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "8. A 50-year-old male presents with a 6-month history of progressive difficulty swallowing, starting with solids and now including liquids. He has lost 15 kg and reports food 'sticking' in his mid-chest. He has a 30-pack-year smoking history and drinks 3-4 beers daily. Physical examination reveals temporal wasting and a BMI of 18.5. His hemoglobin is 95 g/L. Based on this presentation and red flag symptoms, what is the MOST appropriate diagnostic approach?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Barium swallow as initial test followed by endoscopy if abnormal"
+            },
+            {
+                "option": "B",
+                "description": "Urgent referral for upper endoscopy with biopsy"
+            },
+            {
+                "option": "C",
+                "description": "CT chest and abdomen to evaluate for malignancy"
+            },
+            {
+                "option": "D",
+                "description": "Trial of high-dose PPI therapy for 8 weeks"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Gastroenterology, Primary Care",
+        "practice_statement": "I.B.1.d",
+        "reference": "CAG Dysphagia Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "9. A 7-year-old girl presents with a 3-week history of facial puffiness, particularly around the eyes in the morning, and decreased urine output. Parents report her urine appears 'foamy.' She had strep throat 4 weeks ago treated with amoxicillin. On examination, you note periorbital edema, 1+ pitting edema of both ankles, and BP 118/78 (95th percentile for age). Urinalysis shows 4+ protein, no blood. Which diagnosis is MOST likely given this clinical presentation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Post-streptococcal glomerulonephritis"
+            },
+            {
+                "option": "B",
+                "description": "Minimal change nephrotic syndrome"
+            },
+            {
+                "option": "C",
+                "description": "IgA nephropathy"
+            },
+            {
+                "option": "D",
+                "description": "Henoch-Schönlein purpura nephritis"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Child, Nephrology, Primary Care",
+        "practice_statement": "I.B.1.b",
+        "reference": "Canadian Pediatric Nephrology Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Diagnosis",
+        "question": "10. A 65-year-old woman with osteoarthritis presents with acute onset of severe right knee pain, swelling, and warmth that started yesterday. She denies trauma or fever. She takes hydrochlorothiazide for hypertension and occasional NSAIDs for joint pain. On examination, the knee is erythematous, warm, with a large effusion and limited range of motion due to pain. Her temperature is 37.2°C. Which diagnostic test would be MOST definitive in establishing the diagnosis?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Serum uric acid level"
+            },
+            {
+                "option": "B",
+                "description": "Arthrocentesis with synovial fluid analysis including crystal examination"
+            },
+            {
+                "option": "C",
+                "description": "X-ray of the knee"
+            },
+            {
+                "option": "D",
+                "description": "C-reactive protein and ESR"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Rheumatology, Primary Care",
+        "practice_statement": "I.B.1.a",
+        "reference": "Canadian Rheumatology Association Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "11. A 10-year-old boy with moderate persistent asthma is currently on fluticasone 125 mcg BID. Despite good adherence and inhaler technique, he continues to use salbutamol 5-6 times per week and missed school twice last month due to asthma. His mother is concerned about increasing steroid doses. According to current Canadian pediatric asthma guidelines, what is the MOST appropriate next step in management?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Increase fluticasone to 250 mcg BID"
+            },
+            {
+                "option": "B",
+                "description": "Continue current dose and add salmeterol 50 mcg BID"
+            },
+            {
+                "option": "C",
+                "description": "Add montelukast 5 mg daily to current regimen"
+            },
+            {
+                "option": "D",
+                "description": "Switch to combination budesonide/formoterol 200/6 mcg BID"
+            }
+        ],
+        "correct": {
+            "option": "D"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Child, Respiratory, Primary Care",
+        "practice_statement": "I.C.1.d",
+        "reference": "CTS Pediatric Asthma Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "12. A 74-year-old woman with hypertension, type 2 diabetes, and mild cognitive impairment lives alone. She's currently on 8 medications including metformin, gliclazide, ramipril, amlodipine, hydrochlorothiazide, atorvastatin, aspirin, and donepezil. Her daughter reports finding expired medications and duplicates in her mother's home. Her recent HbA1c is 6.8%, BP 128/76. When implementing medication optimization and deprescribing principles, which intervention would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Stop all diabetes medications since HbA1c is at target"
+            },
+            {
+                "option": "B",
+                "description": "Discontinue gliclazide due to hypoglycemia risk in elderly, continue metformin, and simplify regimen with combination pills where possible"
+            },
+            {
+                "option": "C",
+                "description": "Refer to geriatrician before making any changes"
+            },
+            {
+                "option": "D",
+                "description": "Switch to insulin for better diabetes control"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Older Adult, Polypharmacy, Primary Care",
+        "practice_statement": "I.C.2.d",
+        "reference": "Deprescribing.org Canadian Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "13. A 34-year-old woman with Crohn's disease in remission on adalimumab presents for routine follow-up. She's planning pregnancy and asks about medication management. Her last flare was 18 months ago. She's currently taking adalimumab 40 mg subcutaneously every 2 weeks, folic acid 5 mg daily, and vitamin D. According to current inflammatory bowel disease and pregnancy guidelines, what is the MOST appropriate management plan?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Discontinue adalimumab immediately due to pregnancy risks"
+            },
+            {
+                "option": "B",
+                "description": "Continue adalimumab throughout pregnancy and discontinue at 30 weeks gestation"
+            },
+            {
+                "option": "C",
+                "description": "Switch to prednisone for disease control during pregnancy"
+            },
+            {
+                "option": "D",
+                "description": "Continue current regimen including adalimumab throughout pregnancy and breastfeeding"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Gastroenterology, Primary Care",
+        "practice_statement": "I.C.2.g",
+        "reference": "CAG IBD in Pregnancy Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "14. A 6-year-old boy weighing 20 kg is diagnosed with primary nocturnal enuresis. He wets the bed 5-6 nights per week despite fluid restriction and scheduled voiding. Parents have tried reward charts without success. He's motivated to attend sleepovers but embarrassed about bedwetting. Physical exam and urinalysis are normal. What is the MOST appropriate initial pharmacological intervention?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Oxybutynin 5 mg at bedtime"
+            },
+            {
+                "option": "B",
+                "description": "Desmopressin 0.2 mg sublingual at bedtime"
+            },
+            {
+                "option": "C",
+                "description": "Imipramine 25 mg at bedtime"
+            },
+            {
+                "option": "D",
+                "description": "Tolterodine 1 mg twice daily"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Child, Urology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "CPS Nocturnal Enuresis Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "15. A 48-year-old man with newly diagnosed COPD (post-bronchodilator FEV1 65% predicted, CAT score 12) continues to smoke 1 pack daily despite previous quit attempts. He works in construction and reports dyspnea when climbing stairs. He's motivated to improve his breathing but struggles with nicotine cravings. Based on current COPD guidelines, which initial management approach would be MOST comprehensive?",
+        "options": [
+            {
+                "option": "A",
+                "description": "LAMA monotherapy and referral to respiratory therapy"
+            },
+            {
+                "option": "B",
+                "description": "LABA/LAMA combination, smoking cessation pharmacotherapy with varenicline, and referral to pulmonary rehabilitation"
+            },
+            {
+                "option": "C",
+                "description": "ICS/LABA combination and nicotine replacement therapy"
+            },
+            {
+                "option": "D",
+                "description": "Short-acting bronchodilators PRN and behavioral counseling only"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Respiratory, Primary Care",
+        "practice_statement": "I.C.1.d",
+        "reference": "CTS COPD Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Management",
+        "question": "16. A 15-year-old female presents with severe facial acne including numerous papules, pustules, and some nodules on both cheeks and forehead. She's tried over-the-counter benzoyl peroxide and salicylic acid without improvement. She's very self-conscious and avoiding social activities. She's sexually active with one partner and uses condoms. According to current acne management guidelines, which treatment option would be MOST appropriate?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Topical tretinoin 0.025% nightly and clindamycin gel twice daily"
+            },
+            {
+                "option": "B",
+                "description": "Oral doxycycline 100 mg daily with topical benzoyl peroxide"
+            },
+            {
+                "option": "C",
+                "description": "Combined oral contraceptive containing drospirenone plus topical retinoid"
+            },
+            {
+                "option": "D",
+                "description": "Isotretinoin with appropriate iPLEDGE enrollment and monitoring"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adolescent, Dermatology, Primary Care",
+        "practice_statement": "I.C.2.b",
+        "reference": "Canadian Dermatology Association Acne Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "17. A 35-year-old woman diagnosed with generalized anxiety disorder 6 months ago has been taking escitalopram 10 mg daily with good response. She now presents stating she's been feeling much better and stopped her medication 2 weeks ago. She's experiencing return of anxiety symptoms, insomnia, and 'brain zaps.' She asks if she really needs medication long-term. Using evidence-based counselling approaches, how should you BEST address her concerns about medication discontinuation?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Explain she has withdrawal symptoms and must restart medication immediately at the same dose"
+            },
+            {
+                "option": "B",
+                "description": "Discuss that her symptoms suggest discontinuation syndrome, explore her treatment goals, and if she wishes to stop, create a gradual tapering plan after symptom stabilization"
+            },
+            {
+                "option": "C",
+                "description": "Advise that anxiety disorder requires lifelong medication treatment"
+            },
+            {
+                "option": "D",
+                "description": "Suggest switching to benzodiazepines for easier discontinuation in future"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adult, Mental Health, Primary Care",
+        "practice_statement": "I.D.2.b",
+        "reference": "CANMAT Anxiety Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Counselling",
+        "question": "18. A 17-year-old female reveals during a routine visit that she's been self-harming by cutting her forearms when feeling overwhelmed by school stress. She shows you several superficial linear scars. She denies suicidal ideation but says cutting helps her 'feel something.' Her parents are unaware. Using trauma-informed care principles, what is the MOST appropriate initial counselling approach?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Immediately inform her parents as she's a minor at risk"
+            },
+            {
+                "option": "B",
+                "description": "Validate her distress, assess for safety, explore her coping mechanisms, and collaboratively develop a safety plan while discussing confidentiality limits"
+            },
+            {
+                "option": "C",
+                "description": "Refer immediately to emergency psychiatry for admission"
+            },
+            {
+                "option": "D",
+                "description": "Tell her to stop cutting and prescribe an SSRI"
+            }
+        ],
+        "correct": {
+            "option": "B"
+        },
+        "difficulty_level": "Hard",
+        "cognitive_level": "Critical Thinking",
+        "clinical_context": "Adolescent, Mental Health, Primary Care",
+        "practice_statement": "I.D.2.d",
+        "reference": "CAMH Self-Harm Clinical Guidelines 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care",
+        "question": "19. A 67-year-old man with COPD, heart failure, and diabetes is being discharged after a 5-day admission for COPD exacerbation. During admission, his medications were adjusted: prednisone taper started, furosemide increased, and a new inhaler added. He lives with his wife who has early dementia. To ensure safe transition and reduce readmission risk, which discharge planning intervention has the STRONGEST evidence for effectiveness?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Provide written discharge instructions in large print"
+            },
+            {
+                "option": "B",
+                "description": "Schedule follow-up with family physician within 30 days"
+            },
+            {
+                "option": "C",
+                "description": "Arrange home visit by nurse practitioner within 48-72 hours for medication reconciliation, teaching, and assessment"
+            },
+            {
+                "option": "D",
+                "description": "Fax discharge summary to family physician"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Older Adult, Complex Care, Transition",
+        "practice_statement": "I.E.1.a",
+        "reference": "Canadian Patient Safety Institute Transitions 2023"
+    },
+    {
+        "model": "Claude Opus4",
+        "type": "independent",
+        "domain": "Clinician",
+        "subdomain": "Transition of Care",
+        "question": "20. You're seeing a 30-year-old woman virtually who's requesting a medical note for work absence due to severe migraine. She describes unilateral throbbing headache with nausea and photophobia, consistent with her previous migraine pattern. She appears distressed on video and requests the note be emailed to her employer today. Considering privacy legislation and professional documentation standards, what is the MOST appropriate approach?",
+        "options": [
+            {
+                "option": "A",
+                "description": "Email the medical note directly to her employer as requested"
+            },
+            {
+                "option": "B",
+                "description": "Refuse to provide documentation without in-person assessment"
+            },
+            {
+                "option": "C",
+                "description": "Provide a medical note to the patient through secure messaging confirming she was assessed and is unfit for work, without disclosing diagnosis"
+            },
+            {
+                "option": "D",
+                "description": "Document the encounter and tell patient to pick up the note in person"
+            }
+        ],
+        "correct": {
+            "option": "C"
+        },
+        "difficulty_level": "Medium",
+        "cognitive_level": "Application",
+        "clinical_context": "Adult, Documentation, Virtual Care",
+        "practice_statement": "I.E.2.b",
+        "reference": "CMPA Medical Legal Handbook 2023"
+    }
+]
