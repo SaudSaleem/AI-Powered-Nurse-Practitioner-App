@@ -628,7 +628,7 @@ interface FlattenedMCQ extends BaseMCQData {
 
 const router = useRouter()
 const toast = useToast()
-const selectedExam = ref<string>('exam-july-17')
+const selectedExam = ref<string>('Gemini_mcqs')
 const examData = ref<FlattenedMCQ[]>([])
 const loading = ref<boolean>(false)
 const showStatsDialog = ref<boolean>(false)
@@ -639,7 +639,9 @@ const showDeleteDialog = ref<boolean>(false)
 const questionToDelete = ref<{ mcq: FlattenedMCQ; index: number } | null>(null)
 
 const examOptions = ref<ExamOption[]>([
-  { label: 'July 17 Exam', value: 'exam-july-17' }
+  { label: 'Gemini MCQs', value: 'Gemini_mcqs' },
+  { label: 'Grok MCQs', value: 'Grok_mcqs' },
+  { label: 'Claude MCQs', value: 'Claude_mcqs' }
 ])
 
 const answerOptions = ref([
